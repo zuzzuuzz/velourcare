@@ -27,7 +27,7 @@ export default function AboutUs() {
       name: "Nomair Ahmad, CDT",
       role: "Certified Dental Technologist",
       bio: "Digital design specialist who assists doctors with accurate dental alignment plans.",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=300&auto=format&fit=crop"
+      image: "/images/nomair-ahmad.jpg"
     }
   ];
 
