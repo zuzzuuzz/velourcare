@@ -18,13 +18,13 @@ export default function AboutUs() {
       image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=300&auto=format&fit=crop"
     },
     {
-      name: "Alex Mercer, CO",
+      name: "Faizan Afzal, CO",
       role: "Lead Aligner Planning Expert",
       bio: "Specialist in computer-aided staging and polymer behavior, refining tooth-movement sequences for a close and comfortable fit.",
       image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=300&auto=format&fit=crop"
     },
     {
-      name: "Jordan Brooks, CDT",
+      name: "Nomair Ahmad, CDT",
       role: "Certified Dental Technologist",
       bio: "Digital design specialist who assists doctors with accurate dental alignment plans.",
       image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=300&auto=format&fit=crop"
