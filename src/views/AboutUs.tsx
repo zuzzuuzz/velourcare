@@ -5,14 +5,14 @@ import RevealGroup from "../components/RevealGroup";
 export default function AboutUs() {
   const team = [
     {
-      name: "Dr. Marcus Vance, DDS, MS",
+      name: "Liaquat Hussain, DDS, MS",
       role: "Supervising Orthodontist",
       bio: "Board-certified orthodontist with over 18 years of experience. Reviews and supervises custom staging plans for clinical safety.",
       image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=300&auto=format&fit=crop"
     },
  
     {
-      name: "Dr. Amanda Ross, DDS",
+      name: "Dr. Fouzia Anjum, DDS",
       role: "Clinical Treatment Doctor",
       bio: "Experienced clinician focused on case validation, patient assessment, and biomechanical safety checks.",
       image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=300&auto=format&fit=crop"
