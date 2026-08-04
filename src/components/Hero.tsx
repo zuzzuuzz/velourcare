@@ -31,11 +31,12 @@ export default function Hero({ onCtaClick }: HeroProps) {
 
       <div className="layout-container relative z-10">
         <div className="max-w-3xl xl:max-w-4xl mx-auto space-y-8 xl:space-y-9 text-center text-white">
-          <Reveal variant="scale" className="inline-flex items-center space-x-2.5 bg-brand-500/15 backdrop-blur-md px-5 py-2 rounded-full border border-brand-400/40 shadow-sm">
-            <Clock className="w-4 h-4 text-brand-400 shrink-0" />
-            <span className="font-sans text-xs font-bold text-brand-300 uppercase tracking-[0.16em]">
-              Full setup in 24 hours
-            </span>
+          <Reveal variant="scale">
+            <div className="badge badge-underline badge-underline--dark" id="badge-underline-dark">
+              <Clock className="badge-icon" />
+              <span>Full Setup in 24 Hours</span>
+              <div className="badge-underline__line badge-underline__line--gold"></div>
+            </div>
           </Reveal>
 
           <Reveal delay={0.08}>

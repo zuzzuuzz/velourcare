@@ -32,9 +32,10 @@ export default function Blogs() {
           />
         </div>
         <Reveal className="layout-container relative z-10 text-center space-y-4">
-          <div className="inline-flex items-center space-x-2.5 bg-brand-500/10 text-brand-200 px-4 py-1.5 rounded-full border border-brand-500/20 text-[10px] font-sans font-bold uppercase tracking-[0.2em]">
-            <BookOpen className="w-3.5 h-3.5" />
+          <div className="badge badge-underline badge-underline--dark" id="badge-underline-dark">
+            <BookOpen className="badge-icon" />
             <span>Vélourcare Publications</span>
+            <div className="badge-underline__line badge-underline__line--gold"></div>
           </div>
           <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-none">
             Clinical Insights & Care Guides

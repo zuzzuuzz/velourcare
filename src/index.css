@@ -87,3 +87,66 @@
 .before-after-handle {
   box-shadow: 0 0 10px rgba(0,0,0,0.25);
 }
+
+/* Base Badge Component */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  @apply font-display text-[13px] font-medium tracking-[0.08em] uppercase whitespace-nowrap cursor-pointer select-none relative;
+}
+
+.badge-icon {
+  @apply shrink-0 opacity-85;
+}
+
+/* Variant 6: Elegant Underline */
+.badge-underline {
+  padding: 8px 4px;
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-slate-700);
+  transition: color 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.badge-underline:hover {
+  color: var(--color-brand-600);
+}
+
+.badge-underline--dark {
+  color: var(--color-slate-300);
+}
+
+.badge-underline--dark:hover {
+  color: var(--color-brand-300);
+}
+
+.badge-underline__line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: var(--color-slate-300);
+  overflow: hidden;
+}
+
+.badge-underline__line--gold {
+  background: rgba(196, 169, 94, 0.2);
+}
+
+.badge-underline__line::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #C9B48E 0%, #B89B69 40%, #9A7C4D 70%, #C9B48E 100%);
+  transform: translateX(-100%);
+  animation: underlineSweep 5s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+@keyframes underlineSweep {
+  0% { transform: translateX(-100%); }
+  40%, 60% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}

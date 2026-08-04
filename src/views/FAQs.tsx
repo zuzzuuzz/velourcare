@@ -33,9 +33,10 @@ export default function FAQsPage() {
           />
         </div>
         <Reveal className="layout-container relative z-10 text-center space-y-4">
-          <div className="inline-flex items-center space-x-2.5 bg-white/5 text-white px-5 py-2 rounded-full border border-white/10 text-[10px] font-medium uppercase tracking-[0.2em]">
-            <HelpCircle className="w-3.5 h-3.5" />
+          <div className="badge badge-underline badge-underline--dark" id="badge-underline-dark">
+            <HelpCircle className="badge-icon" />
             <span>Support Helpdesk</span>
+            <div className="badge-underline__line badge-underline__line--gold"></div>
           </div>
           <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-none">
             Frequently Asked Questions

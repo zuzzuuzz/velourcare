@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 
 export const siteName = "Vélourcare Ortho";
-export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, "");
+export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://vélourcare.com").replace(/\/$/, "");
 export const siteDescription = "Vélourcare Ortho provides doctor-led digital orthodontic planning and clear aligner support for clinical partners and patients.";
 
-// TODO: Replace with verified Vélourcare Ortho email address when available
-export const contactEmail = "partner@smilyx-aligners.com";
+export const contactEmail = "info@vélourcare.com";
 
 export function pageMetadata(title: string, description: string, path = "/"): Metadata {
   const canonical = new URL(path, siteUrl).toString();

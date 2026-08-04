@@ -62,9 +62,10 @@ export default function AboutUs() {
           />
         </div>
         <Reveal className="layout-container relative z-10 text-center space-y-4">
-          <div className="inline-flex items-center space-x-2.5 bg-white/5 text-white/70 px-4 py-1.5 rounded-full border border-white/10 text-[10px] font-medium uppercase tracking-[0.2em]">
-            <Users className="w-3 h-3" />
+          <div className="badge badge-underline badge-underline--dark" id="badge-underline-dark">
+            <Users className="badge-icon" />
             <span>The Vélourcare Foundation</span>
+            <div className="badge-underline__line badge-underline__line--gold"></div>
           </div>
           <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-none">
             About Us
