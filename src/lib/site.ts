@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const siteName = "Vélourcare Ortho";
-export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://vélourcare.com").replace(/\/$/, "");
+export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.xn--vlourcare-b4a.com").replace(/\/$/, "");
 export const siteDescription = "Vélourcare Ortho provides doctor-led digital orthodontic planning and clear aligner support for clinical partners and patients.";
 
 export const contactEmail = "info@vélourcare.com";
