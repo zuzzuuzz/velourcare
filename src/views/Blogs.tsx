@@ -7,6 +7,7 @@ import { blogPosts } from "../data";
 import { BlogPost } from "../types";
 import Reveal from "../components/Reveal";
 import RevealGroup from "../components/RevealGroup";
+import BlogContentRenderer from "../components/BlogContentRenderer";
 
 export default function Blogs() {
   const router = useRouter();
@@ -95,24 +96,11 @@ export default function Blogs() {
             </p>
           </div>
 
-          {/* Author info */}
-          <div className="flex items-center space-x-4 bg-slate-50 p-4 rounded-2xl border border-slate-100">
-            <img
-              src={activeBlog.author.avatar}
-              alt={activeBlog.author.name}
-              className="w-10 h-10 rounded-full object-cover"
-              referrerPolicy="no-referrer"
-            />
-            <div>
-              <p className="font-display font-bold text-slate-900 text-sm leading-none">{activeBlog.author.name}</p>
-              <p className="text-slate-500 text-[10px] mt-0.5 font-semibold">{activeBlog.author.role}</p>
-            </div>
-          </div>
 
           {/* Main content body */}
-          <div className="prose prose-slate max-w-none text-slate-700 text-sm sm:text-base leading-relaxed space-y-6 pt-4 border-t border-slate-100 font-sans">
-            <p>{activeBlog.content}</p>
-            <p className="text-slate-600">
+          <div className="prose prose-slate max-w-none text-slate-700 text-sm sm:text-base leading-relaxed space-y-4 pt-4 border-t border-slate-100 font-sans">
+            <BlogContentRenderer content={activeBlog.content} />
+            <p className="text-slate-600 mt-6">
               Clear aligner treatment works best when tooth movements are planned in small, controlled stages. Vélourcare Ortho aligners are hand-finished to support comfort and reduce avoidable soft-tissue irritation.
             </p>
             <p className="text-slate-600">
@@ -193,16 +181,7 @@ export default function Blogs() {
                   </div>
                 </div>
 
-                <div className="p-6 pt-0 border-t border-slate-50 flex items-center justify-between mt-4">
-                  <div className="flex items-center space-x-2">
-                    <img
-                      src={post.author.avatar}
-                      alt={post.author.name}
-                      className="w-6 h-6 rounded-full object-cover"
-                      referrerPolicy="no-referrer"
-                    />
-                    <span className="text-[10px] font-bold text-slate-700">{post.author.name.split(" ")[0]}</span>
-                  </div>
+                <div className="p-6 pt-0 border-t border-slate-50 flex items-center justify-end mt-4">
                   <span className="text-brand-600 hover:text-brand-700 font-display font-bold text-[10px] tracking-wider uppercase inline-flex items-center space-x-1">
                     <span>Read Article</span>
                     <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />

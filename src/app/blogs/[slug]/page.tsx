@@ -5,6 +5,7 @@ import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { notFound } from "next/navigation";
 import { blogPosts } from "@/src/data";
 import { siteName, siteUrl } from "@/src/lib/site";
+import BlogContentRenderer from "@/src/components/BlogContentRenderer";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -59,11 +60,7 @@ export default async function BlogArticle({ params }: Props) {
         </div>
         <h1 className="font-display font-black text-3xl sm:text-5xl text-slate-900 leading-tight mt-6">{post.title}</h1>
         <p className="mt-5 text-slate-600 italic border-l-4 border-brand-400 pl-4">{post.excerpt}</p>
-        <div className="flex items-center gap-3 mt-8 py-5 border-y border-slate-100">
-          <Image src={post.author.avatar} alt={post.author.name} width={44} height={44} className="rounded-full" />
-          <div><p className="font-display font-bold text-slate-900 text-sm">{post.author.name}</p><p className="text-slate-500 text-xs">{post.author.role}</p></div>
-        </div>
-        <div className="mt-8 space-y-6 text-slate-700 leading-relaxed"><p>{post.content}</p><p>Clear aligner treatment works best when tooth movements are planned in small, controlled stages. Vélourcare Ortho aligners are hand-finished to support comfort and reduce avoidable soft-tissue irritation.</p><p>Before starting treatment, we recommend a full intraoral scan and periodontal review to confirm that the teeth and supporting tissues are ready for movement.</p></div>
+        <div className="mt-8 space-y-4 text-slate-700 leading-relaxed"><BlogContentRenderer content={post.content} /><p className="mt-6">Clear aligner treatment works best when tooth movements are planned in small, controlled stages. Vélourcare Ortho aligners are hand-finished to support comfort and reduce avoidable soft-tissue irritation.</p><p>Before starting treatment, we recommend a full intraoral scan and periodontal review to confirm that the teeth and supporting tissues are ready for movement.</p></div>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     </article>
