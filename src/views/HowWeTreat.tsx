@@ -33,14 +33,6 @@ export default function HowWeTreat() {
       videoUrl: "https://www.youtube.com/embed/liSgnxg9WFI"
     },
     {
-      id: "diastema",
-      title: "Diastema & Gaps",
-      label: "Diastema",
-      desc: "Excess spacing between teeth, often most visible between the upper central incisors. We close these spaces with controlled tooth movement and a retention plan after treatment.",
-      recoveryTime: "4 - 8 Months",
-      difficulty: "Mild to Moderate"
-    },
-    {
       id: "overbite",
       title: "Deep Bite",
       label: "Deep Bite",
