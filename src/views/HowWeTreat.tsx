@@ -15,6 +15,7 @@ export default function HowWeTreat() {
   type Malocclusion = {
     id: string;
     title: string;
+    label: string;
     desc: string;
     recoveryTime: string;
     difficulty: string;
@@ -25,6 +26,7 @@ export default function HowWeTreat() {
     {
       id: "crowding",
       title: "Anterior Crowding",
+      label: "Crowding",
       desc: "Teeth overlap, rotate, or bunch together when there is not enough space in the arch. We correct this with planned expansion and careful interproximal alignment.",
       recoveryTime: "6 - 11 Months",
       difficulty: "Mild to Severe",
@@ -33,20 +35,24 @@ export default function HowWeTreat() {
     {
       id: "diastema",
       title: "Diastema & Gaps",
+      label: "Diastema",
       desc: "Excess spacing between teeth, often most visible between the upper central incisors. We close these spaces with controlled tooth movement and a retention plan after treatment.",
       recoveryTime: "4 - 8 Months",
       difficulty: "Mild to Moderate"
     },
     {
       id: "overbite",
-      title: "Deep Overbite",
+      title: "Deep Bite",
+      label: "Deep Bite",
       desc: "Upper teeth overlap the lower teeth more than they should. Treatment may include planned incisor intrusion and controlled posterior tooth movement.",
       recoveryTime: "9 - 14 Months",
-      difficulty: "Moderate to Severe"
+      difficulty: "Moderate to Severe",
+      videoUrl: "https://www.youtube.com/embed/C5KNHXq-evE"
     },
     {
       id: "relapse",
       title: "Post-Ortho Relapse",
+      label: "Relapse",
       desc: "Teeth can shift after braces when retainers are not worn consistently. Mild relapse can often be corrected with a shorter aligner sequence.",
       recoveryTime: "3 - 6 Months",
       difficulty: "Mild"
@@ -222,7 +228,7 @@ export default function HowWeTreat() {
                         : "text-slate-500 hover:text-brand-600 hover:bg-slate-50"
                     }`}
                   >
-                    {item.title.split(" ")[1] || item.title}
+                    {item.label}
                   </button>
                 ))}
               </div>
