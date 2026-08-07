@@ -12,13 +12,23 @@ export default function HowWeTreat() {
   const shouldReduceMotion = useReducedMotion();
   const [activeTab, setActiveTab] = useState("crowding");
 
-  const malocclusions = [
+  type Malocclusion = {
+    id: string;
+    title: string;
+    desc: string;
+    recoveryTime: string;
+    difficulty: string;
+    videoUrl?: string;
+  };
+
+  const malocclusions: Malocclusion[] = [
     {
       id: "crowding",
       title: "Anterior Crowding",
       desc: "Teeth overlap, rotate, or bunch together when there is not enough space in the arch. We correct this with planned expansion and careful interproximal alignment.",
       recoveryTime: "6 - 11 Months",
-      difficulty: "Mild to Severe"
+      difficulty: "Mild to Severe",
+      videoUrl: "https://www.youtube.com/embed/liSgnxg9WFI"
     },
     {
       id: "diastema",
@@ -236,6 +246,19 @@ export default function HowWeTreat() {
                     <p className="text-slate-600 text-sm leading-relaxed">
                       {item.desc}
                     </p>
+                    {item.videoUrl && (
+                      <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-sm border border-slate-200 mt-6 mb-4 transition-all duration-300 hover:shadow-md hover:border-slate-300 group bg-slate-50">
+                        {/* Decorative subtle overlay that disappears on hover if wanted, but standard iframe is fine */}
+                        <iframe
+                          src={item.videoUrl}
+                          title={`${item.title} Video Demonstration`}
+                          className="absolute inset-0 w-full h-full"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        ></iframe>
+                      </div>
+                    )}
                     <div className="grid grid-cols-2 gap-4 pt-4 border-t border-slate-50">
                       <div>
                         <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">Difficulty Profile</span>
