@@ -50,12 +50,13 @@ export default function HowWeTreat() {
       videoUrl: "https://www.youtube.com/embed/C5KNHXq-evE"
     },
     {
-      id: "relapse",
-      title: "Post-Ortho Relapse",
-      label: "Relapse",
-      desc: "Teeth can shift after braces when retainers are not worn consistently. Mild relapse can often be corrected with a shorter aligner sequence.",
-      recoveryTime: "3 - 6 Months",
-      difficulty: "Mild"
+      id: "openbite",
+      title: "Open Bite",
+      label: "Open Bite",
+      desc: "Upper and lower teeth do not make physical contact when the jaws are closed. Treatment involves vertical control and carefully planned aligner attachments to close the bite.",
+      recoveryTime: "8 - 14 Months",
+      difficulty: "Moderate to Severe",
+      videoUrl: "https://www.youtube.com/embed/i0QBv5gHCIg"
     }
   ];
 
