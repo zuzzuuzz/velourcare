@@ -41,7 +41,7 @@ export default function TermsOfService() {
         </p>
 
         <p>
-          These Terms & Conditions ("Terms", "Agreement") govern your access to and use of the website located at vélourcare.com (including subdomains such as velourcare-ortho.vercel.app, collectively the "Site") and all digital orthodontic planning, CAD/CAM design, 3D dental modeling, and clear aligner fabrication services provided by Velourcare Ortho ("Velourcare Ortho", "we", "us", or "our") (collectively, the "Services").
+          These Terms & Conditions ("Terms", "Agreement") govern your access to and use of the website located at vélourcare.com (including subdomains such as velourcare-ortho.vercel.app, collectively the "Site") and all digital orthodontic planning, OnyxCeph³ 3D staging, model production, and clear aligner fabrication services provided by Velourcare Ortho ("Velourcare Ortho", "we", "us", or "our") (collectively, the "Services").
         </p>
 
         <p>
@@ -52,10 +52,10 @@ export default function TermsOfService() {
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">1. SCOPE OF SERVICES & CLINICAL RESPONSIBILITY</h2>
           <p>
-            <strong>Digital Orthodontic Laboratory Operations:</strong> Velourcare Ortho functions as a specialized digital orthodontic laboratory providing 3D diagnostic treatment setups, CAD/CAM staging models, thermoformed clear aligners, and auxiliary retainers based on digital data submitted by licensed practitioners.
+            <strong>Digital Orthodontic Laboratory Operations:</strong> Velourcare Ortho functions as a specialized digital orthodontic laboratory providing 3D diagnostic treatment setups staged via OnyxCeph³ software, 3D printing models, thermoformed clear aligners, and auxiliary retainers based on digital data submitted by licensed practitioners.
           </p>
           <p>
-            <strong>Clinical Autonomy & Duty of Care:</strong> Velourcare Ortho is a technical manufacturing and design provider. We do not practice dentistry or medicine. All 3D movement trajectories and staging setups are advisory suggestions generated for review by the treating dental practitioner. The referring practitioner retains sole responsibility for reviewing, verifying, and approving all 3D treatment setups prior to aligner fabrication. Physical manufacturing will not commence until formal setup approval is granted via the Partner Portal.
+            <strong>Clinical Autonomy & Duty of Care:</strong> Velourcare Ortho is a technical manufacturing and digital staging provider. We do not practice dentistry or medicine. All OnyxCeph³ tooth movement trajectories and virtual staging setups are technical suggestions generated for review by the treating practitioner. The referring practitioner retains sole responsibility for reviewing, verifying, and approving all OnyxCeph³ 3D treatment setups prior to aligner fabrication. Physical manufacturing will not commence until formal setup approval is granted via the Partner Portal.
           </p>
         </div>
 
@@ -73,8 +73,8 @@ export default function TermsOfService() {
           <h2 className="font-display font-bold text-xl text-slate-900">3. CASE SUBMISSIONS & DIAGNOSTIC DATA STANDARDS</h2>
           <p>To initiate a clear aligner case, practitioners must upload complete, high-quality diagnostic datasets, including:</p>
           <ul className="list-decimal pl-5 space-y-2">
-            <li>Upper and lower arch 3D intraoral scans (STL/PLY format).</li>
-            <li>Diagnostic radiographs (panoramic / cephalometric/CBCT).</li>
+            <li>Upper and lower arch 3D intraoral scans (STL / PLY format) compatible with OnyxCeph³ import.</li>
+            <li>Diagnostic radiographs (panoramic / cephalometric / CBCT).</li>
             <li>High-resolution extraoral and intraoral clinical photographs.</li>
             <li>Specific prescription details (chief complaints, IPR limitations, attachment preferences).</li>
           </ul>
@@ -86,44 +86,44 @@ export default function TermsOfService() {
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">4. PAYMENT, BILLING & CANCELLATION TERMS</h2>
           <p>
-            <strong>Pricing & Invoicing:</strong> All fees for 3D treatment setups, aligner packages, mid-course refinements, and replacement retainers are quoted at the time of order placement.
+            <strong>Pricing & Invoicing:</strong> All fees for OnyxCeph³ 3D treatment setups, aligner packages, mid-course refinements, and replacement retainers are quoted at the time of order placement.
           </p>
           <p>
             <strong>Payment Terms:</strong> Setup fees and production charges must be paid via our secure PCI-DSS compliant payment gateways or agreed clinical credit terms before physical manufacturing begins.
           </p>
           <p>
-            <strong>Order Cancellations:</strong> Case setups may be modified or canceled prior to final 3D setup approval, subject to an administrative design fee. Once a 3D setup is approved and aligners enter production, orders cannot be canceled or refunded.
+            <strong>Order Cancellations:</strong> Case setups may be modified or canceled prior to final OnyxCeph³ setup approval, subject to an administrative design fee. Once an OnyxCeph³ 3D setup is approved and aligners enter production, orders cannot be canceled or refunded.
           </p>
         </div>
 
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">5. REFINEMENTS, REPLACEMENTS & WARRANTY POLICY</h2>
           <p>
-            <strong>Mid-Course Refinements:</strong> If tooth movement strays from the initial 3D staging setup during treatment, practitioners may request a refinement subject to their tier package parameters. Refinements require new intraoral scans and photos.
+            <strong>Mid-Course Refinements:</strong> If tooth movement strays from the initial OnyxCeph³ staging setup during treatment, practitioners may request a refinement subject to their tier package parameters. Refinements require new intraoral scans and photos to re-align the model in OnyxCeph³.
           </p>
           <p>
-            <strong>Manufacturing Warranty:</strong> Velourcare Ortho warrants that clear aligners are fabricated according to approved CAD/CAM parameters and free from physical defects. Defects or fit failures must be reported within 14 business days of receipt for free replacement.
+            <strong>Manufacturing Warranty:</strong> Velourcare Ortho warrants that clear aligners are fabricated strictly according to approved OnyxCeph³ parameters and are free from physical defects. Defects or fit failures must be reported within 14 business days of receipt for free replacement.
           </p>
         </div>
 
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">6. INTELLECTUAL PROPERTY & DIGITAL ASSETS</h2>
           <p>
-            All software, algorithms, 3D setup viewer interfaces, branding assets, logos, website layout, and trade secrets associated with vélourcare.com are the exclusive property of Velourcare Ortho. Proprietary 3D staging files, digital movement trajectories, and custom CAD designs remain our intellectual property.
+            All software, algorithms, 3D setup viewer interfaces, branding assets, logos, website layout, and trade secrets associated with vélourcare.com are the exclusive property of Velourcare Ortho. Proprietary OnyxCeph³ staging files, digital movement trajectories, and custom 3D model setups remain our intellectual property.
           </p>
         </div>
 
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">7. DATA PRIVACY & CLINICAL SECURITY</h2>
           <p>
-            All personal and clinical health data submitted to Velourcare Ortho is processed in strict compliance with our Privacy Policy, the Prevention of Electronic Crimes Act (PECA), and international technical standards (AES encryption at rest, TLS in transit). We employ a strict Clinical Anonymization Protocol: production technicians access 3D models using anonymized Case Reference IDs.
+            All personal and clinical health data submitted to Velourcare Ortho is processed in strict compliance with our Privacy Policy, the Prevention of Electronic Crimes Act (PECA), and simple encryption standards (AES for data at rest and TLS for data in transit). We employ a strict Clinical Anonymization Protocol: production technicians access 3D models using anonymized Case Reference IDs.
           </p>
         </div>
 
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">8. LIMITATION OF LIABILITY & INDEMNIFICATION</h2>
           <p>
-            To the maximum extent permitted by applicable law, Velourcare Ortho shall not be liable for adverse clinical outcomes, root resorption, periodontal compromise, or relapse resulting from treatment setups approved by the practitioner. In no event shall Velourcare Ortho's total aggregate liability exceed the total fee paid by the practitioner for the specific case in dispute.
+            To the maximum extent permitted by applicable law, Velourcare Ortho shall not be liable for adverse clinical outcomes, root resorption, periodontal compromise, or relapse resulting from setups approved by the practitioner. In no event shall Velourcare Ortho's total aggregate liability exceed the total fee paid by the practitioner for the specific case in dispute.
           </p>
         </div>
 
