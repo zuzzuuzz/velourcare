@@ -79,8 +79,52 @@ export const blogPosts: BlogPost[] = [
     id: "blog-01",
     slug: "how-clear-aligners-safely-move-teeth",
     title: "How Clear Aligners Safely Move Teeth: The Biomechanics",
-    excerpt: "A clear look at bone remodeling, periodontal ligament response, and the controlled forces behind clear aligners.",
-    content: "When you wear a new set of clear aligners, the tray applies light, planned pressure to specific teeth. That pressure starts a normal biological process called bone remodeling. On the pressure side, the periodontal ligament compresses and osteoclasts help resorb old bone. On the tension side, osteoblasts help build new bone. Vélourcare Ortho aligners are made from medical polyurethane selected to keep these forces controlled and comfortable throughout treatment.",
+    excerpt: "A deep dive into the cellular processes, controlled force systems, and CAD/CAM digital engineering principles that allow clear aligners to safely and predictably transform a smile.",
+    content: `To the untrained eye, clear aligners look like simple plastic trays that snap over teeth. However, behind every successful treatment lies a sophisticated blend of **biomechanical engineering, cellular biology, and CAD/CAM software design**. Understanding the biomechanics of clear aligners explains why treatment is both safe and predictable when planned correctly. This guide explores the cellular processes, force systems, and digital engineering principles that allow clear aligners to safely transform a smile.
+
+## 1. The Cellular Level: How Tooth Movement Actually Works
+
+Teeth are not set directly into rigid jawbone; they are suspended within alveolus bone by the **periodontal ligament (PDL)** — a collagen-rich vascular tissue acting as a shock absorber.
+
+**Pressure Side (Bone Resorption):** When an aligner applies micro-pressure to a tooth, the PDL compresses on one side. Reduced blood flow triggers signaling molecules that activate **osteoclasts** — specialized cells that safely break down tiny amounts of bone matrix to clear a path for the root.
+
+**Tension Side (Bone Deposition):** On the opposite side, the PDL stretches. This tension stimulates blood flow and activates **osteoblasts** — cells that lay down fresh, new bone matrix behind the moving root, locking the tooth safely into its new position.
+
+## 2. Controlled Forces: Why Light, Continuous Pressure Is Essential
+
+In orthodontic biomechanics, more force does not mean faster movement. In fact, excessive force halts tooth movement and causes tissue damage.
+
+- **Optimal Force Threshold:** Bone remodeling occurs safest when forces remain within a gentle, optimal biological window (typically 0.2N to 0.35N per tooth).
+- **Hyalinization Avoidance:** Heavy forces crush PDL blood vessels, causing tissue necrosis (hyalinization). The body must then clear dead tissue before bone can remodel, slowing progress and causing pain.
+- **Root Resorption Protection:** Controlled, incremental forces protect tooth root tips from shortening or breaking down during transit.
+
+## 3. The Staging Protocol: CAD/CAM Digital Precision
+
+Unlike traditional braces where archwires deliver continuous pulling forces across entire arches, aligners move teeth incrementally using **staged digital steps** calculated in CAD software.
+
+| Biomechanical Concept | Incremental Staging | Clinical Advantage |
+|----------------------|--------------------|--------------------|
+| **Distance per Tray** | 0.2mm to 0.25mm movement per tray step. | Prevents tissue overload and excessive soreness. |
+| **Rotational Limits** | 1° to 2° of rotation per tray step. | Maintains tracking and predictable force application. |
+| **Selective Movement** | Anchors non-moving teeth while moving targeted teeth. | Maximizes biomechanical efficiency without unwanted side effects. |
+
+## 4. Composite Attachments & Force Vectors
+
+Because smooth plastic trays can struggle to grip curved tooth enamel, clinicians use tooth-colored **composite attachments** placed on specific teeth.
+
+- **Creating Pushing Surfaces:** Attachments create precise shape angles that allow the aligner material to exert direct force vectors.
+- **Complex Movements:** Essential for difficult movements such as tooth extrusion (pulling a tooth down), root torqueing, and severe rotations.
+- **Power Ridges:** Built-in tray indents that exert targeted torque near the gingival margin to tilt tooth roots accurately.
+
+## 5. Material Science: Polymeric Elasticity
+
+Modern clear aligners are engineered using multi-layer polyurethane or co-polyester polymers. These advanced materials provide:
+
+- **Constant Force Retention:** Delivers low, sustained force across the full 1 to 2-week wear cycle of a single tray.
+- **Stress Relaxation Resistance:** Prevents the plastic from stretching out prematurely or losing its shape under internal mouth heat.
+- **Flexibility with Memory:** High elasticity allows easy insertion and removal without permanent deformation.
+
+Discover how custom aligner staging and advanced CAD design elevate patient outcomes at vélourcare.com.`,
     category: "Biomechanics",
     author: {
       name: "Nomair Ahmad",
@@ -88,7 +132,7 @@ export const blogPosts: BlogPost[] = [
       avatar: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=150&auto=format&fit=crop"
     },
     date: "June 24, 2026",
-    readTime: "4 min read",
+    readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=800&auto=format&fit=crop"
   },
   {
