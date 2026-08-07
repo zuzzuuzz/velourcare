@@ -332,6 +332,5 @@ export const officeHours = [
 ];
 export const officeContact = {
   phone: "+923294053244",
-  // TODO: Replace with verified Vélourcare Ortho email address when available
-  email: "partner@smilyx-aligners.com"
+  email: "info@vélourcare.com"
 };
