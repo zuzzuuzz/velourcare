@@ -133,7 +133,7 @@ Discover how custom aligner staging and advanced CAD design elevate patient outc
     },
     date: "June 24, 2026",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: "blog-02",
@@ -202,7 +202,7 @@ Your smile is an investment worth protecting. Explore custom retainer options, r
     },
     date: "July 02, 2026",
     readTime: "6 min read",
-    imageUrl: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: "blog-03",
@@ -257,7 +257,7 @@ Your ideal smile starts with a precision-tailored digital plan. Explore our cust
     },
     date: "July 10, 2026",
     readTime: "5 min read",
-    imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=800&auto=format&fit=crop"
   }
 ];
 
