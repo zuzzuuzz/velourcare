@@ -17,6 +17,7 @@ import Blogs from "./views/Blogs";
 import FAQs from "./views/FAQs";
 import PrivacyPolicy from "./views/PrivacyPolicy";
 import TermsOfService from "./views/TermsOfService";
+import RefundPolicy from "./views/RefundPolicy";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<string>("home");
@@ -44,6 +45,7 @@ export default function App() {
           "faqs",
           "privacy-policy",
           "terms-of-service",
+          "refund-policy",
         ].includes(hash)
       ) {
         setCurrentPage(hash);
@@ -89,6 +91,8 @@ export default function App() {
         return <PrivacyPolicy />;
       case "terms-of-service":
         return <TermsOfService />;
+      case "refund-policy":
+        return <RefundPolicy />;
       default:
         return (
           <Home

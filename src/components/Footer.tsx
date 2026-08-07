@@ -198,6 +198,12 @@ export default function Footer({ onNavigate }: FooterProps) {
               Terms of Service
             </button>
             <button
+              onClick={() => handleNavClick("refund-policy")}
+              className="hover:text-white transition-colors cursor-pointer"
+            >
+              Refund Policy
+            </button>
+            <button
               onClick={scrollToTop}
               className="bg-slate-800 hover:bg-brand-500 hover:text-slate-900 text-white p-2 rounded-full transition-all duration-200 cursor-pointer"
               aria-label="Scroll to top"
