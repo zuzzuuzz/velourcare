@@ -192,7 +192,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               Privacy Policy
             </button>
             <button
-              onClick={() => handleNavClick("faqs")}
+              onClick={() => handleNavClick("terms-of-service")}
               className="hover:text-white transition-colors cursor-pointer"
             >
               Terms of Service
