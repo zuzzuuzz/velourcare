@@ -13,7 +13,21 @@ export function pageMetadata(title: string, description: string, path = "/", abs
     title: titleValue,
     description,
     alternates: { canonical },
-    openGraph: { title, description, url: canonical, siteName, type: "website" },
+    openGraph: { 
+      title, 
+      description, 
+      url: canonical, 
+      siteName, 
+      type: "website",
+      images: [
+        {
+          url: "/images/logo-emblem-square.png",
+          width: 512,
+          height: 512,
+          alt: "Vélourcare Ortho Logo",
+        }
+      ]
+    },
     twitter: { card: "summary_large_image", title, description },
   };
 }
