@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { ArrowRight, ShieldCheck, CheckCircle } from "lucide-react";
 import Hero from "../components/Hero";
 import CTASection from "../components/CTASection";
@@ -74,9 +75,11 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
             {/* Supporting Image */}
             <Reveal variant="left" className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-brand-500 to-teal-500 rounded-3xl blur-xl opacity-10 group-hover:opacity-20 transition-all duration-300" />
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=800&auto=format&fit=crop"
                 alt="Detailed clinical orthodontics protocol"
+                width={800}
+                height={450}
                 className="rounded-3xl shadow-lg w-full object-cover aspect-video relative z-10 border border-slate-100"
                 referrerPolicy="no-referrer"
               />
@@ -149,11 +152,13 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
                 className="bg-white rounded-3xl p-8 border border-slate-100 hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
               >
                 <div className="space-y-4">
-                  <div className="h-48 rounded-2xl overflow-hidden">
-                    <img
+                  <div className="relative h-48 rounded-2xl overflow-hidden">
+                    <Image
                       src={service.imageUrl}
                       alt={service.title}
-                      className="w-full h-full object-cover"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover"
                       referrerPolicy="no-referrer"
                     />
                   </div>
@@ -199,11 +204,13 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
             {/* Invisalign Card */}
             <div className="bg-slate-50 rounded-3xl p-6 border border-slate-100 flex flex-col justify-between hover:border-brand-200 hover:shadow-lg transition-all duration-300">
               <div className="space-y-4">
-                <div className="h-40 rounded-2xl overflow-hidden">
-                  <img
+                <div className="relative h-40 rounded-2xl overflow-hidden">
+                  <Image
                     src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=400"
                     alt="Invisalign Treatment"
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -223,11 +230,13 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
             {/* Kids Ortho Card */}
             <div className="bg-slate-50 rounded-3xl p-6 border border-slate-100 flex flex-col justify-between hover:border-brand-200 hover:shadow-lg transition-all duration-300">
               <div className="space-y-4">
-                <div className="h-40 rounded-2xl overflow-hidden">
-                  <img
+                <div className="relative h-40 rounded-2xl overflow-hidden">
+                  <Image
                     src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=400"
                     alt="Orthodontics for Kids"
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -247,11 +256,13 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
             {/* Adult Ortho Card */}
             <div className="bg-slate-50 rounded-3xl p-6 border border-slate-100 flex flex-col justify-between hover:border-brand-200 hover:shadow-lg transition-all duration-300">
               <div className="space-y-4">
-                <div className="h-40 rounded-2xl overflow-hidden">
-                  <img
+                <div className="relative h-40 rounded-2xl overflow-hidden">
+                  <Image
                     src="https://images.unsplash.com/photo-1513224502586-d1e602410265?q=80&w=400"
                     alt="Adult Orthodontics"
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -309,9 +320,11 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
 
             {/* Teaser image */}
             <Reveal variant="right" className="relative">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop"
                 alt="Vélourcare Ortho modern digital laboratory"
+                width={800}
+                height={800}
                 className="rounded-3xl shadow-xl w-full object-cover aspect-square"
                 referrerPolicy="no-referrer"
               />
