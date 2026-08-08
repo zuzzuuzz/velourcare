@@ -65,7 +65,7 @@ export default function HowWeTreat() {
       title: "Orthodontic Setup & Planning",
       subtitle: "Expert Movement Vectoring",
       desc: "Your custom clear aligner plan is designed by our clinical doctors and an aligner specialist, assisted by a certified dental technologist, under the direct supervision of a licensed master orthodontist. We use staging software to simulate tooth movement and map progress week by week.",
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop"
+      image: "/images/ortho-setup-planning.jpg"
     },
     {
       number: "03",
