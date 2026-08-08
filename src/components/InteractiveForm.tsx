@@ -370,7 +370,9 @@ export default function InteractiveForm({ defaultEnquiryType = "general" }: Inte
               className="w-5 h-5 rounded text-brand-600 focus:ring-brand-100 border-slate-300 mt-0.5 cursor-pointer"
             />
             <label htmlFor="agreedToTerms-checkbox" className="text-xs text-slate-500 leading-relaxed cursor-pointer select-none">
-              I agree to the processing of clinical medical data in accordance with Vélourcare Ortho's Privacy Policy and regional patient confidentiality requirements (HIPAA/PDPA).
+              I agree to the processing of clinical medical data in accordance with Vélourcare Ortho's{" "}
+              <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-brand-600 underline underline-offset-2 hover:text-brand-700 transition-colors">Privacy Policy</a>{" "}
+              and regional patient confidentiality requirements (PECA/PMC).
             </label>
           </div>
 
