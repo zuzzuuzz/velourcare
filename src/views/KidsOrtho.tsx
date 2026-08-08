@@ -10,11 +10,10 @@ export default function KidsOrtho() {
       <section className="bg-slate-900 text-white py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=2400&auto=format&fit=crop"
+            src="/images/kids-ortho-boy.jpg"
             fill
             className="object-cover"
             alt="Happy child smiling backdrop"
-            referrerPolicy="no-referrer"
           />
         </div>
         <Reveal className="layout-container relative z-10 text-center space-y-6">

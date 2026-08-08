@@ -232,12 +232,11 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
               <div className="space-y-4">
                 <div className="relative h-40 rounded-2xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=400"
+                    src="/images/kids-ortho-boy.jpg"
                     alt="Orthodontics for Kids"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover"
-                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <h3 className="font-display font-bold text-lg text-slate-900">Kids Orthodontics</h3>
