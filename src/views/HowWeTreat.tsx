@@ -72,7 +72,7 @@ export default function HowWeTreat() {
       title: "Precise Thermoforming & Trim",
       subtitle: "Medical-Grade Aligner Fabrication",
       desc: "Using Class-VI biocompatible multi-layer polymers, we 3D print the dental models and thermoform each aligner. Each tray is laser-scalloped to match the gumline, then hand-polished for comfort.",
-      image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop"
+      image: "/images/thermoforming-trim.png"
     },
     {
       number: "04",
