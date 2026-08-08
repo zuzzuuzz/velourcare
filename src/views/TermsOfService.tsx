@@ -1,6 +1,5 @@
 import { Shield, Scale, FileText } from "lucide-react";
 import Reveal from "../components/Reveal";
-import RevealGroup from "../components/RevealGroup";
 
 export default function TermsOfService() {
   return (
@@ -30,7 +29,7 @@ export default function TermsOfService() {
       </section>
 
       {/* Legal Text Content */}
-      <RevealGroup className="max-w-3xl mx-auto px-4 text-left font-sans text-slate-600 text-sm sm:text-base leading-relaxed space-y-8">
+      <div className="max-w-3xl mx-auto px-4 text-left font-sans text-slate-600 text-sm sm:text-base leading-relaxed space-y-8">
         
         {/* Preamble */}
         <p>
@@ -146,7 +145,7 @@ export default function TermsOfService() {
         <div className="pt-8 text-center text-xs text-slate-400">
           <p>© 2026 Velourcare Ortho. All rights reserved. Strictly confidential.</p>
         </div>
-      </RevealGroup>
+      </div>
     </div>
   );
 }

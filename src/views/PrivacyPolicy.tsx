@@ -1,6 +1,5 @@
 import { Shield, Lock, FileText, Eye, Trash2, Database, Globe, Baby, Cookie, Mail } from "lucide-react";
 import Reveal from "../components/Reveal";
-import RevealGroup from "../components/RevealGroup";
 
 export default function PrivacyPolicy() {
   return (
@@ -30,7 +29,7 @@ export default function PrivacyPolicy() {
       </section>
 
       {/* Legal Text Content */}
-      <RevealGroup className="max-w-3xl mx-auto px-4 text-left font-sans text-slate-600 text-sm sm:text-base leading-relaxed space-y-8">
+      <div className="max-w-3xl mx-auto px-4 text-left font-sans text-slate-600 text-sm sm:text-base leading-relaxed space-y-8">
         {/* Banner */}
         <div className="flex items-center space-x-3 bg-brand-50/50 p-4 rounded-2xl border border-brand-50">
           <Shield className="w-6 h-6 text-brand-600 shrink-0" />
@@ -233,7 +232,7 @@ export default function PrivacyPolicy() {
           <p>Official Website: vélourcare.com &nbsp;|&nbsp; Email Contact: info@vélourcare.com</p>
           <p className="mt-2">© 2026 Velourcare Ortho. All rights reserved. Strictly confidential.</p>
         </div>
-      </RevealGroup>
+      </div>
     </div>
   );
 }
