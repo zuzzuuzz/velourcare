@@ -1,4 +1,5 @@
 import { Smile, CheckCircle, ShieldAlert, Award, Star, Clock } from "lucide-react";
+import Image from "next/image";
 import Reveal from "../components/Reveal";
 import RevealGroup from "../components/RevealGroup";
 
@@ -8,9 +9,10 @@ export default function KidsOrtho() {
       {/* Hero Banner */}
       <section className="bg-slate-900 text-white py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=2400&auto=format&fit=crop"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
             alt="Happy child smiling backdrop"
             referrerPolicy="no-referrer"
           />
@@ -33,11 +35,12 @@ export default function KidsOrtho() {
       <section className="layout-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <Reveal variant="left" className="relative">
-            <img
-              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800"
+            <Image
+              src="/images/kids-orthodontics.jpg"
               alt="Child at orthodontic exam"
+              width={800}
+              height={600}
               className="rounded-3xl shadow-xl w-full object-cover aspect-[4/3]"
-              referrerPolicy="no-referrer"
             />
             <div className="absolute -bottom-6 -left-6 bg-slate-50 border border-slate-100 rounded-2xl p-6 shadow-xl hidden sm:block max-w-xs text-left">
               <Award className="w-8 h-8 text-brand-600 mb-2" />
