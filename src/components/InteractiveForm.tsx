@@ -192,7 +192,7 @@ export default function InteractiveForm({ defaultEnquiryType = "general" }: Inte
           </div>
 
           {errorMsg && (
-            <div id="form-error" className="bg-red-50 text-red-700 text-xs font-semibold px-4 py-3 rounded-xl border border-red-100">
+            <div id="form-error" role="alert" aria-live="assertive" className="bg-red-50 text-red-700 text-xs font-semibold px-4 py-3 rounded-xl border border-red-100">
               {errorMsg}
             </div>
           )}
@@ -304,7 +304,7 @@ export default function InteractiveForm({ defaultEnquiryType = "general" }: Inte
                   onChange={handleInputChange}
                   className="w-full px-4 py-2.5 rounded-lg border border-slate-200 text-slate-800 text-sm focus:border-brand-500 bg-white"
                 >
-                  <option value="">Select a time slot</option>
+                  <option value="" disabled>Select a time slot</option>
                   <option value="09:00 AM">09:00 AM (SGT)</option>
                   <option value="11:00 AM">11:00 AM (SGT)</option>
                   <option value="02:00 PM">02:00 PM (SGT)</option>

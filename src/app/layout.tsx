@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import { Playfair_Display, Inter } from "next/font/google";
 import "@/src/index.css";
 import SiteShell from "@/src/components/SiteShell";
 import { organizationSchema, siteDescription, siteName, siteUrl } from "@/src/lib/site";
+
+const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-display" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -23,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${playfair.variable} scroll-smooth`}>
       <body>
         <SiteShell>{children}</SiteShell>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }} />
