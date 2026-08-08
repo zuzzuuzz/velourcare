@@ -6,10 +6,11 @@ export const siteDescription = "Vélourcare Ortho provides doctor-led digital or
 
 export const contactEmail = "info@vélourcare.com";
 
-export function pageMetadata(title: string, description: string, path = "/"): Metadata {
+export function pageMetadata(title: string, description: string, path = "/", absolute = false): Metadata {
   const canonical = new URL(path, siteUrl).toString();
+  const titleValue = absolute ? { absolute: title } : title;
   return {
-    title,
+    title: titleValue,
     description,
     alternates: { canonical },
     openGraph: { title, description, url: canonical, siteName, type: "website" },
