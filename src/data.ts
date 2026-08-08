@@ -40,7 +40,7 @@ export const caseStudies: CaseStudy[] = [
     condition: "Severe Anterior Crowding & Overlap",
     difficulty: "Severe",
     durationMonths: 11,
-    beforeImg: "https://images.unsplash.com/photo-1513224502586-d1e602410265?q=80&w=800&auto=format&fit=crop",
+    beforeImg: "/images/adult-ortho.jpg",
     afterImg: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=800&auto=format&fit=crop",
     description: "The patient presented with severe imbrication of the maxillary anterior region, specifically severe rotated central incisors and deep bite. Traditional metal braces were declined for aesthetic reasons.",
     clinicalNotes: "Treatment used 22 active stages of clear aligners. Precision buccal attachments were placed on teeth 12, 11, 21, and 22 to guide rotation. Interproximal reduction (IPR) of 0.2mm was applied on the lower anterior teeth.",

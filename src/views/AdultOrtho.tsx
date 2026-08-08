@@ -9,7 +9,7 @@ export default function AdultOrtho() {
       <section className="bg-slate-900 text-white py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://images.unsplash.com/photo-1513224502586-d1e602410265?q=80&w=2400&auto=format&fit=crop"
+            src="/images/adult-ortho.jpg"
             fill
             className="object-cover"
             alt="Adult smiling confidently backdrop"

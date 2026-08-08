@@ -258,7 +258,7 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
               <div className="space-y-4">
                 <div className="relative h-40 rounded-2xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1513224502586-d1e602410265?q=80&w=400"
+                    src="/images/adult-ortho.jpg"
                     alt="Adult Orthodontics"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
