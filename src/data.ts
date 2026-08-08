@@ -10,7 +10,7 @@ export const services: TreatmentService[] = [
     fullDesc: "Every aligner case starts with accurate records. Instead of traditional putty impressions, we use laser-based intraoral scanners to capture a detailed, color-mapped 3D model of the teeth. Combined with digital cephalometric radiography, this gives our lab a reliable anatomic baseline for planning.",
     duration: "1 Session (30 mins)",
     suitableFor: ["Crowding", "Spacing", "Overbite", "Underbite", "Crossbite"],
-    imageUrl: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "/images/precision-dental-diagnosis.jpg"
   },
   {
     id: "ortho-design",
