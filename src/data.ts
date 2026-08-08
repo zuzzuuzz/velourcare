@@ -28,7 +28,7 @@ export const services: TreatmentService[] = [
     fullDesc: "Our manufacturing process uses Class-VI biocompatible PETG polyurethane materials. Each aligner sheet is thermoformed over a high-resolution 3D printed dental model, laser-trimmed to the scalloped gingival margin, and hand-polished. The result is a comfortable, clear tray with consistent gentle force.",
     duration: "7-10 Business Days",
     suitableFor: ["Direct patient setups", "Clinical partner labs", "Replacement sets"],
-    imageUrl: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "/images/aligner-fabrication.jpg"
   }
 ];
 
