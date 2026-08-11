@@ -38,7 +38,7 @@ export default function Contact() {
                 Office Information
               </span>
               <h2 className="font-display font-black text-2xl text-slate-900 tracking-tight">
-                Our Singapore Headquarters
+                Our Lahore Headquarters
               </h2>
               <p className="text-slate-500 text-xs leading-relaxed">
                 Vélourcare Ortho clinical design laboratories follow quality management and data privacy standards for digital orthodontic records.
@@ -124,7 +124,7 @@ export default function Contact() {
               </div>
               <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-md flex justify-between items-center z-10 text-xs">
                 <span className="font-semibold text-slate-800">Dental Science Campus</span>
-                <span className="font-bold text-brand-600">Singapore</span>
+                <span className="font-bold text-brand-600">Lahore, Pakistan</span>
               </div>
             </div>
         </Reveal>
