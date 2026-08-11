@@ -121,7 +121,7 @@ export default async function BlogArticle({ params }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
             <Link
-              href="/contact"
+              href="/contact?type=trial#form"
               className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-brand-500 hover:bg-brand-400 text-slate-950 font-bold text-sm transition-all duration-200 shadow-md hover:shadow-lg text-center"
             >
               Submit a Trial Case
