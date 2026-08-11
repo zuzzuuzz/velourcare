@@ -124,7 +124,7 @@ Modern clear aligners are engineered using multi-layer polyurethane or co-polyes
 - **Stress Relaxation Resistance:** Prevents the plastic from stretching out prematurely or losing its shape under internal mouth heat.
 - **Flexibility with Memory:** High elasticity allows easy insertion and removal without permanent deformation.
 
-Discover how custom aligner staging and advanced CAD design elevate patient outcomes at vélourcare.com.`,
+Discover how custom aligner staging and advanced CAD design elevate patient outcomes with Vélourcare Ortho.`,
     category: "Biomechanics",
     author: {
       name: "Nomair Ahmad",
@@ -193,7 +193,7 @@ During orthodontic treatment, your teeth move through bone remodeling. When pres
 - **Debonded Wire:** A detached fixed wire requires prompt re-bonding to prevent rapid rotation.
 - **Persistent Calculus:** Heavy white calcification signals deep bacterial build-up.
 
-Your smile is an investment worth protecting. Explore custom retainer options, replacement trays, and digital alignment protection at vélourcare.com.`,
+Your smile is an investment worth protecting. Explore custom retainer options, replacement trays, and digital alignment protection with Vélourcare Ortho.`,
     category: "Post-Care",
     author: {
       name: "Nomair Ahmad",

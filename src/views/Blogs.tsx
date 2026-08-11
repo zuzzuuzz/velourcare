@@ -88,9 +88,9 @@ export default function Blogs() {
           </div>
 
           <div className="space-y-4">
-            <h1 className="font-display font-black text-3xl sm:text-4xl text-slate-900 tracking-tight leading-snug">
+            <h2 className="font-display font-black text-3xl sm:text-4xl text-slate-900 tracking-tight leading-snug">
               {activeBlog.title}
-            </h1>
+            </h2>
             <p className="text-slate-600 text-sm italic rounded-2xl border border-brand-100 bg-brand-50/40 px-4 py-3 leading-relaxed">
               "{activeBlog.excerpt}"
             </p>

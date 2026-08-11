@@ -36,38 +36,38 @@ export default function Footer({ onNavigate }: FooterProps) {
             </p>
             <div className="flex items-center space-x-3 pt-2">
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/velourcare"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-slate-800 hover:bg-brand-500 hover:text-slate-900 flex items-center justify-center transition-all duration-200 text-slate-400"
-                aria-label="Facebook"
+                aria-label="Follow Vélourcare Ortho on Facebook"
               >
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/velourcare"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-slate-800 hover:bg-brand-500 hover:text-slate-900 flex items-center justify-center transition-all duration-200 text-slate-400"
-                aria-label="Instagram"
+                aria-label="Follow Vélourcare Ortho on Instagram"
               >
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/company/velourcare"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-slate-800 hover:bg-brand-500 hover:text-slate-900 flex items-center justify-center transition-all duration-200 text-slate-400"
-                aria-label="LinkedIn"
+                aria-label="Follow Vélourcare Ortho on LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="https://whatsapp.com"
+                href="https://wa.me/923294053244"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-slate-800 hover:bg-brand-500 hover:text-slate-900 flex items-center justify-center transition-all duration-200 text-slate-400"
-                aria-label="WhatsApp"
+                aria-label="Chat with Vélourcare Ortho on WhatsApp"
               >
                 <MessageCircle className="w-4 h-4" />
               </a>
