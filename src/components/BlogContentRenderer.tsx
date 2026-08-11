@@ -66,6 +66,28 @@ export default function BlogContentRenderer({ content }: { content: string }) {
       continue;
     }
 
+    // Callout / Blockquote: > 
+    if (line.trim().startsWith("> ")) {
+      const quoteLines: string[] = [];
+      while (i < lines.length && lines[i].trim().startsWith("> ")) {
+        quoteLines.push(lines[i].trim().slice(2));
+        i++;
+      }
+      elements.push(
+        <div
+          key={key++}
+          className="my-6 p-4 sm:p-5 rounded-2xl bg-brand-50/70 border-l-4 border-brand-500 border border-brand-100 text-slate-800 space-y-2 shadow-sm"
+        >
+          {quoteLines.map((qLine, qIdx) => (
+            <p key={qIdx} className="text-sm sm:text-base leading-relaxed">
+              {renderInline(qLine)}
+            </p>
+          ))}
+        </div>
+      );
+      continue;
+    }
+
     // Regular paragraph
     elements.push(
       <p key={key++} className="text-slate-700 text-sm sm:text-base leading-relaxed">

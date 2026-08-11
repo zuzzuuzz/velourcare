@@ -106,8 +106,33 @@ export default async function BlogArticle({ params }: Props) {
         <p className="mt-5 text-slate-600 italic border-l-4 border-brand-400 pl-4">{post.excerpt}</p>
         <div className="mt-8 space-y-4 text-slate-700 leading-relaxed">
           <BlogContentRenderer content={post.content} />
-          <p className="mt-6">Clear aligner treatment works best when tooth movements are planned in small, controlled stages. Vélourcare Ortho aligners are hand-finished to support comfort and reduce avoidable soft-tissue irritation.</p>
-          <p>Before starting treatment, we recommend a full intraoral scan and periodontal review to confirm that the teeth and supporting tissues are ready for movement.</p>
+        </div>
+
+        {/* High-Converting Internal Call to Action Banner */}
+        <div className="mt-14 p-8 sm:p-10 rounded-3xl bg-slate-900 text-white shadow-xl border border-slate-850 text-center space-y-5">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/20 text-brand-300 border border-brand-500/30 text-xs font-bold uppercase tracking-wider">
+            Clinical Collaboration & Care
+          </div>
+          <h3 className="font-display font-black text-2xl sm:text-3xl text-white tracking-tight leading-snug">
+            Ready to Start Your Digital Orthodontic Case?
+          </h3>
+          <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+            Whether you are a dental practitioner seeking 3D OnyxCeph treatment setups or a patient exploring clear aligner options, our clinical orthodontic team is ready to assist.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+            <Link
+              href="/contact"
+              className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-brand-500 hover:bg-brand-400 text-slate-950 font-bold text-sm transition-all duration-200 shadow-md hover:shadow-lg text-center"
+            >
+              Submit a Trial Case
+            </Link>
+            <Link
+              href="/how-we-treat"
+              className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm transition-all duration-200 border border-slate-700 text-center"
+            >
+              Explore Treatment Process
+            </Link>
+          </div>
         </div>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
