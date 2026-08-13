@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteUrl } from "@/src/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
-  const isPreview = process.env.VERCEL_ENV === "preview" || process.env.NODE_ENV === "development";
+  const isPreview = process.env.VERCEL_ENV === "preview";
 
   if (isPreview) {
     return {
@@ -17,11 +17,53 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
-        disallow: ["/api/", "/_next/"],
+        allow: [
+          "/",
+          "/favicon.png",
+          "/favicon.ico",
+          "/favicon-48x48.png",
+          "/favicon-96x96.png",
+          "/favicon-192x192.png",
+          "/favicon-512x512.png",
+          "/apple-touch-icon.png",
+          "/_next/static/",
+          "/agents.md",
+          "/llms.txt",
+          "/llms-full.txt",
+          "/sitemap.xml",
+          "/policies/",
+        ],
+        disallow: ["/api/", "/private/", "/admin/"],
       },
       {
-        userAgent: "GPTBot",
+        userAgent: "Googlebot-Image",
+        allow: "/",
+      },
+      {
+        userAgent: [
+          "GPTBot",
+          "ChatGPT-User",
+          "OAI-SearchBot",
+          "ClaudeBot",
+          "anthropic-ai",
+          "Claude-Web",
+          "PerplexityBot",
+          "Perplexity-User",
+          "CCBot",
+          "Google-Extended",
+          "cohere-ai",
+          "Applebot-Extended",
+          "Bytespider",
+          "Amazonbot",
+          "meta-externalagent",
+        ],
+        allow: [
+          "/agents.md",
+          "/llms.txt",
+          "/llms-full.txt",
+          "/sitemap.xml",
+          "/policies/",
+        ],
         disallow: ["/private/"],
       },
     ],
@@ -29,4 +71,6 @@ export default function robots(): MetadataRoute.Robots {
     host: siteUrl,
   };
 }
+
+
 
