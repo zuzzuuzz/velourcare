@@ -14,7 +14,7 @@ export default function Blogs() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [activeBlog, setActiveBlog] = useState<BlogPost | null>(null);
 
-  const categories = ["All", "Biomechanics", "Post-Care", "Education"];
+  const categories = ["All", "3D Setup Science", "Biomechanics", "Post-Care", "Education"];
 
   const filteredPosts = selectedCategory === "All"
     ? blogPosts

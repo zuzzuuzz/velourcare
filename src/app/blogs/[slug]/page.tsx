@@ -10,7 +10,7 @@ import BlogContentRenderer from "@/src/components/BlogContentRenderer";
 type Props = { params: Promise<{ slug: string }> };
 
 function getPost(slug: string) {
-  return blogPosts.find((post) => post.slug === slug);
+  return blogPosts.find((post) => post.slug === slug || post.slug.replace(/_/g, "-") === slug || post.slug === slug.replace(/-/g, "_"));
 }
 
 export async function generateStaticParams() {
