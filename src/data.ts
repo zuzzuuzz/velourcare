@@ -586,6 +586,6 @@ export const officeHours = [
   { days: "Sunday", hours: "Closed" }
 ];
 export const officeContact = {
-  phone: "+923294053244",
+  phone: "+923264755645",
   email: "info@vélourcare.com"
 };
