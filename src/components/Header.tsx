@@ -2,17 +2,16 @@
 
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Menu, X, ArrowRight, ChevronDown, QrCode } from "lucide-react";
+import { Menu, X, ArrowRight, ChevronDown } from "lucide-react";
 import Logo from "./Logo";
 import { motionEase } from "./motionPresets";
 
 interface HeaderProps {
   currentPage: string;
   onNavigate: (page: string) => void;
-  onOpenQR?: () => void;
 }
 
-export default function Header({ currentPage, onNavigate, onOpenQR }: HeaderProps) {
+export default function Header({ currentPage, onNavigate }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -164,22 +163,6 @@ export default function Header({ currentPage, onNavigate, onOpenQR }: HeaderProp
 
           {/* Desktop Right Button */}
           <div className="hidden lg:flex items-center space-x-3">
-            {onOpenQR && (
-              <button
-                id="header-qr-button"
-                onClick={onOpenQR}
-                className={`px-3.5 py-2.5 text-xs font-bold font-display uppercase tracking-wider transition-all rounded-full flex items-center space-x-1.5 cursor-pointer hover:scale-105 active:scale-95 ${
-                  overHero
-                    ? "text-white/90 hover:text-white bg-white/10 hover:bg-white/20 border border-white/20"
-                    : "text-slate-700 hover:text-brand-600 bg-slate-100/90 hover:bg-brand-50 border border-slate-200"
-                }`}
-                aria-label="Get website QR code for easy mobile access"
-                title="Get Website QR Code"
-              >
-                <QrCode className="w-4 h-4 text-brand-500" />
-                <span className="hidden xl:inline">QR Access</span>
-              </button>
-            )}
             <button
               id="header-cta-button"
               onClick={() => handleLinkClick("trial-case")}
@@ -271,19 +254,6 @@ export default function Header({ currentPage, onNavigate, onOpenQR }: HeaderProp
             </motion.nav>
 
             <div className="border-t border-slate-100 bg-white px-5 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom))] space-y-3">
-              {onOpenQR && (
-                <button
-                  id="mobile-header-qr"
-                  onClick={() => {
-                    setIsOpen(false);
-                    onOpenQR();
-                  }}
-                  className="min-h-11 w-full justify-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-display font-bold text-xs tracking-wider uppercase px-5 py-3 rounded-xl transition-all duration-200 flex items-center space-x-2 cursor-pointer border border-slate-200"
-                >
-                  <QrCode className="w-4 h-4 text-brand-600" />
-                  <span>Website QR Code</span>
-                </button>
-              )}
               <button
                 id="mobile-header-cta"
                 onClick={() => handleLinkClick("trial-case")}
