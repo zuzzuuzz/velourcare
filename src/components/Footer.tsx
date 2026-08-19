@@ -1,15 +1,14 @@
 "use client";
 
-import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin, Clock, MessageCircle, ArrowUp, QrCode } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin, Clock, MessageCircle, ArrowUp } from "lucide-react";
 import { officeAddress, officeHours, officeContact } from "../data";
 import Logo from "./Logo";
 
 interface FooterProps {
   onNavigate: (page: string) => void;
-  onOpenQR?: () => void;
 }
 
-export default function Footer({ onNavigate, onOpenQR }: FooterProps) {
+export default function Footer({ onNavigate }: FooterProps) {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -204,16 +203,6 @@ export default function Footer({ onNavigate, onOpenQR }: FooterProps) {
             >
               Refund Policy
             </button>
-            {onOpenQR && (
-              <button
-                onClick={onOpenQR}
-                className="flex items-center space-x-1 hover:text-brand-400 text-slate-300 transition-colors cursor-pointer bg-slate-800/80 px-2.5 py-1 rounded-lg border border-slate-700 hover:border-brand-500/50"
-                title="Get website QR code for mobile access"
-              >
-                <QrCode className="w-3.5 h-3.5 text-brand-400" />
-                <span>QR Access</span>
-              </button>
-            )}
             <button
               onClick={scrollToTop}
               className="bg-slate-800 hover:bg-brand-500 hover:text-slate-900 text-white p-2 rounded-full transition-all duration-200 cursor-pointer"

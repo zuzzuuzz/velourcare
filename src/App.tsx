@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { QrCode } from "lucide-react";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import QRCodeModal from "./components/QRCodeModal";
 import { motionEase } from "./components/motionPresets";
 
 // Pages
@@ -24,7 +22,6 @@ import RefundPolicy from "./views/RefundPolicy";
 export default function App() {
   const [currentPage, setCurrentPage] = useState<string>("home");
   const [contactDefaultCategory, setContactDefaultCategory] = useState<"trial" | "meeting" | "general" >("general");
-  const [isQRModalOpen, setIsQRModalOpen] = useState(false);
 
   // Scroll to top on every route change
   useEffect(() => {
@@ -109,7 +106,7 @@ export default function App() {
   return (
     <div id="smilyx-app-container" className="min-h-screen flex flex-col bg-slate-50/20 text-slate-800 antialiased selection:bg-brand-500 selection:text-white relative">
       {/* Dynamic Header navigation */}
-      <Header currentPage={currentPage} onNavigate={handleNavigate} onOpenQR={() => setIsQRModalOpen(true)} />
+      <Header currentPage={currentPage} onNavigate={handleNavigate} />
 
       {/* Main content wrapper with entry transitions */}
       <main className="flex-grow">
@@ -127,24 +124,8 @@ export default function App() {
         </AnimatePresence>
       </main>
 
-      {/* Floating QR Access Button */}
-      <button
-        onClick={() => setIsQRModalOpen(true)}
-        className="fixed bottom-6 left-6 z-40 bg-slate-900/90 hover:bg-slate-900 text-white p-3 rounded-2xl shadow-xl border border-slate-700/60 backdrop-blur-md transition-all duration-300 hover:scale-105 group flex items-center space-x-2 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
-        title="Scan QR Code to open site on mobile"
-        aria-label="Open Website QR Code modal"
-      >
-        <QrCode className="w-5 h-5 text-brand-400 group-hover:rotate-12 transition-transform duration-300" />
-        <span className="hidden sm:inline font-display text-xs font-bold uppercase tracking-wider text-slate-200 pr-1">
-          Scan QR
-        </span>
-      </button>
-
       {/* Multi-column footer layout */}
-      <Footer onNavigate={handleNavigate} onOpenQR={() => setIsQRModalOpen(true)} />
-
-      {/* QR Code Modal Popup */}
-      <QRCodeModal isOpen={isQRModalOpen} onClose={() => setIsQRModalOpen(false)} />
+      <Footer onNavigate={handleNavigate} />
     </div>
   );
 }
