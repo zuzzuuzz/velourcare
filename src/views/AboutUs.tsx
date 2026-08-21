@@ -12,10 +12,10 @@ export default function AboutUs() {
     },
  
     {
-      name: "Dr. Fouzia Anjum, DDS",
+      name: "Dr. Zenab Bokhari, BDS",
       role: "Clinical Treatment Doctor",
       bio: "Experienced clinician focused on case validation, patient assessment, and biomechanical safety checks.",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=300&auto=format&fit=crop"
+      image: "/images/dr-zenab-bokhari.jpg"
     },
     {
       name: "Faizan Afzal, CO",
