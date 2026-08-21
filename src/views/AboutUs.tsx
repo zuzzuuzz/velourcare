@@ -18,10 +18,10 @@ export default function AboutUs() {
       image: "/images/dr-zenab-bokhari.jpg"
     },
     {
-      name: "Faizan Afzal, CO",
+      name: "Muhammad Ahmad, CO",
       role: "Lead Aligner Planning Expert",
       bio: "Specialist in computer-aided staging and polymer behavior, refining tooth-movement sequences for a close and comfortable fit.",
-      image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=300&auto=format&fit=crop"
+      image: "/images/muhammad-ahmad.jpg"
     },
     {
       name: "Nomair Ahmad, CDT",
