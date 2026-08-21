@@ -5,10 +5,10 @@ import RevealGroup from "../components/RevealGroup";
 export default function AboutUs() {
   const team = [
     {
-      name: "Liaquat Hussain, DDS, MS",
+      name: "Dr Syed Ali Haider, DDS",
       role: "Supervising Orthodontist",
       bio: "Board-certified orthodontist with over 18 years of experience. Reviews and supervises custom staging plans for clinical safety.",
-      image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=300&auto=format&fit=crop"
+      image: "/images/dr-syed-ali-haider.jpg"
     },
  
     {
