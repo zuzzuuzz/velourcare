@@ -19,7 +19,7 @@ export const services: TreatmentService[] = [
     fullDesc: "Tooth movement needs careful planning. Vélourcare Ortho uses digital setup software to review the force and sequence required for each tooth. Your plan is prepared by our clinical doctors, aligner design specialists, and an assisting certified dental technologist, with direct supervision from a licensed orthodontist. The goal is a clear step-by-step path that is comfortable, safe, and ready for review in 24 hours.",
     duration: "24 Hours",
     suitableFor: ["All malocclusions", "Custom case planning", "Relapse corrections"],
-    imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "/images/ortho-setup-planning.jpg"
   },
   {
     id: "aligner-fabrication",
