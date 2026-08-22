@@ -7,26 +7,26 @@ export default function AboutUs() {
     {
       name: "Dr Syed Ali Haider, DDS",
       role: "Supervising Orthodontist",
-      bio: "Board-certified orthodontist with over 18 years of experience. Reviews and supervises custom staging plans for clinical safety.",
+      bio: "Board-certified orthodontist. Reviews and supervises custom staging plans for clinical safety.",
       image: "/images/dr-syed-ali-haider.jpg"
     },
  
     {
       name: "Dr. Zenab Bokhari, BDS",
       role: "Clinical Treatment Doctor",
-      bio: "Experienced clinician focused on case validation, patient assessment, and biomechanical safety checks.",
+      bio: "Experienced clinician with over 6 years of clinical experience, focused on case validation, patient assessment, and biomechanical safety checks.",
       image: "/images/dr-zenab-bokhari.jpg"
     },
     {
       name: "Muhammad Ahmad, CO",
       role: "Lead Aligner Planning Expert",
-      bio: "Specialist in computer-aided staging and polymer behavior, refining tooth-movement sequences for a close and comfortable fit.",
+      bio: "Specialist with over 4 years of experience in Exocad and aligners, refining tooth-movement sequences for a close and comfortable fit.",
       image: "/images/muhammad-ahmad.jpg"
     },
     {
       name: "Nomair Ahmad, CDT",
       role: "Certified Dental Technologist",
-      bio: "Digital design specialist who assists doctors with accurate dental alignment plans.",
+      bio: "Digital design specialist with over 5 years of experience in manual lab and aligners, assisting doctors with accurate dental alignment plans.",
       image: "/images/nomair-ahmad.jpg"
     }
   ];
