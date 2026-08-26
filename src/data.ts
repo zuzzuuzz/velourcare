@@ -24,8 +24,8 @@ export const services: TreatmentService[] = [
   {
     id: "aligner-fabrication",
     title: "Medical-Grade Aligner Fabrication",
-    shortDesc: "Multi-layer thermoformed polymers produced from accurate 3D printed models for a clear, close fit.",
-    fullDesc: "Our manufacturing process uses Class-VI biocompatible PETG polyurethane materials. Each aligner sheet is thermoformed over a high-resolution 3D printed dental model, laser-trimmed to the scalloped gingival margin, and hand-polished. The result is a comfortable, clear tray with consistent gentle force.",
+    shortDesc: "High-clarity, medical-grade aligners crafted from precise 3D printed models for a comfortable, snug fit.",
+    fullDesc: "Our clear aligners are made from premium medical-grade clear materials. Each aligner is formed over a high-resolution 3D printed dental model, laser-trimmed along the gumline, and hand-polished. The result is a comfortable, crystal-clear tray that delivers consistent, gentle force.",
     duration: "7-10 Business Days",
     suitableFor: ["Direct patient setups", "Clinical partner labs", "Replacement sets"],
     imageUrl: "/images/aligner-fabrication.jpg"
@@ -121,12 +121,12 @@ Because smooth plastic trays can struggle to grip curved tooth enamel, clinician
 - **Complex Movements:** Essential for difficult movements such as tooth extrusion (pulling a tooth down), root torqueing, and severe rotations.
 - **Power Ridges:** Built-in tray indents that exert targeted torque near the gingival margin to tilt tooth roots accurately.
 
-## 5. Material Science: Polymeric Elasticity
+## 5. Material Science: Clear Aligner Elasticity
 
-Modern clear aligners are engineered using multi-layer polyurethane or co-polyester polymers. These advanced materials provide:
+Modern clear aligners are engineered using specialized multi-layer medical plastics. These advanced materials provide:
 
 - **Constant Force Retention:** Delivers low, sustained force across the full 1 to 2-week wear cycle of a single tray.
-- **Stress Relaxation Resistance:** Prevents the plastic from stretching out prematurely or losing its shape under internal mouth heat.
+- **Stress Relaxation Resistance:** Prevents the tray from stretching out prematurely or losing its shape.
 - **Flexibility with Memory:** High elasticity allows easy insertion and removal without permanent deformation.
 
 ## 6. What This Means for Patients: Why 22 Hours/Day Matters Biologically
@@ -250,7 +250,7 @@ A primary consideration for adults and teenagers alike when choosing orthodontic
 
 **Traditional Metal Braces** utilize high-grade stainless steel brackets bonded to the front of each tooth, connected by archwires and elastic bands. While highly reliable for complex biomechanical movements, they remain prominently visible throughout treatment.
 
-**Clear Aligners** are custom-fabricated using medical-grade, highly transparent thermoplastic polymers. Engineered to fit snugly over the dental arch, they are virtually invisible during daily conversations, meetings, and photography.
+**Clear Aligners** are custom-fabricated using medical-grade, highly transparent materials. Engineered to fit snugly over the dental arch, they are virtually invisible during daily conversations, meetings, and photography.
 
 ## 2. Digital CAD/CAM Precision & Predictability
 
@@ -305,7 +305,7 @@ Your ideal smile starts with a precision-tailored digital plan. Explore our cust
     content: `> **Key Takeaways for Orthodontists & Dental CAD Technicians:**
 > - **Medical-Grade Software Suite:** OnyxCeph³™ by Image Instruments merges 2D cephalometric analysis with 3D CAD/CAM setup workflows, giving operators 6 spatial degrees of freedom.
 > - **Virtual Patient Model:** Integrates intraoral surface scans (STL/PLY/OBJ), CBCT root & bone superposition (DICOM), and 2D/3D cephalometric photogrammetry.
-> - **Mathematical Precision:** Linear translations controlled in steps of 0.15mm – 0.25mm per tray; rotational torque kept within 1.0° – 2.0° to maintain polymer elasticity tracking.
+> - **Mathematical Precision:** Linear translations controlled in steps of 0.15mm – 0.25mm per tray; rotational torque kept within 1.0° – 2.0° to maintain predictable aligner tracking.
 > - **In-House Aligner Staging:** Vector-targeted attachments and selective anchorage staging eliminate guesswork aligners and third-party markup.
 
 In modern orthodontic care, achieving predictable aesthetic and functional outcomes is no longer driven by trial-and-error manual adjustments. Instead, it relies on precision digital CAD/CAM modeling. At the core of high-level digital orthodontic workflows is **OnyxCeph³™ 3D Treatment Planning**—a comprehensive diagnostic and virtual setup platform that turns raw clinical scans into biologically sound movement plans.
@@ -331,7 +331,7 @@ Before movement can occur, algorithms separate crowns and root structures from t
 | Biomechanical Parameter | Technical Metric in OnyxCeph 3D | Clinical Biological Impact |
 |-------------------------|---------------------------------|----------------------------|
 | **Linear Translation** | Controlled in steps of 0.15mm – 0.25mm per tray | Prevents periodontal ligament crush and hyalinization. |
-| **Rotational Torque** | Limited to 1.0° – 2.0° max rotation per step | Ensures tracking along polymer tray elasticity bounds. |
+| **Rotational Torque** | Limited to 1.0° – 2.0° max rotation per step | Ensures tracking along aligner tray flexibility bounds. |
 | **3D Occlusal Distance Mapping** | Color-coded distance collision matrix | Prevents premature occlusal contacts and traumatic bite force. |
 | **IPR Calculation** | Precision millimeter logging per interdental space | Ensures exact arch length management without over-reduction. |
 
@@ -520,7 +520,7 @@ export const FAQs: FAQItem[] = [
   {
     category: "General",
     question: "What makes Vélourcare Ortho aligners different from standard aligners?",
-    answer: "Vélourcare Ortho aligners use multi-layer polymers selected for steady orthodontic force. Each setup is custom-designed and approved by a licensed, board-certified orthodontist rather than left to an algorithm alone."
+    answer: "Vélourcare Ortho aligners use premium medical-grade clear materials selected for steady orthodontic force. Each setup is custom-designed and approved by a licensed, board-certified orthodontist rather than left to an algorithm alone."
   },
   {
     category: "Treatment",
@@ -540,7 +540,7 @@ export const FAQs: FAQItem[] = [
   {
     category: "Care & Wear",
     question: "How do I clean and sanitize my aligners?",
-    answer: "Rinse them with cool water every time you take them out. Brush them gently with a soft-bristled toothbrush and a clear, mild liquid soap (avoid colored toothpastes, which can scratch or stain the clear polymer). You can also submerge them in standard orthodontic retainer cleaning tablets."
+    answer: "Rinse them with cool water every time you take them out. Brush them gently with a soft-bristled toothbrush and a clear, mild liquid soap (avoid colored toothpastes, which can scratch or stain the clear material). You can also submerge them in standard orthodontic retainer cleaning tablets."
   },
   {
     category: "Pricing",

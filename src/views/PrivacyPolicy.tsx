@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
           <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 space-y-2 mt-4">
             <p className="font-display font-bold text-slate-900 text-sm">Clinical Anonymization Protocol</p>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Patient identity parameters (name, contact information) are strictly separated from diagnostic 3D scans and photos upon entry into our internal laboratory system. Diagnostic STL files and fabrication orders are assigned unique alphanumeric Case Reference IDs. Laboratory technicians and 3D printing specialists design and thermoform aligner trays using anonymized case codes only, ensuring production staff never view personally identifiable patient information.
+              Patient identity parameters (name, contact information) are strictly separated from diagnostic 3D scans and photos upon entry into our internal laboratory system. Diagnostic STL files and fabrication orders are assigned unique alphanumeric Case Reference IDs. Laboratory technicians and 3D printing specialists design and fabricate aligner trays using anonymized case codes only, ensuring production staff never view personally identifiable patient information.
             </p>
           </div>
         </div>

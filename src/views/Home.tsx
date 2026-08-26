@@ -132,7 +132,7 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
                 Our Clinical Solutions
               </h2>
               <p className="text-slate-600 text-sm max-w-2xl leading-relaxed">
-                From high-resolution 3D diagnostic mapping to hand-polished thermoformed aligners, we support the full digital orthodontic workflow.
+                From high-resolution 3D diagnostic mapping to hand-polished clear aligners, we support the full digital orthodontic workflow.
               </p>
             </div>
             <button
@@ -303,7 +303,7 @@ export default function Home({ onNavigate, onSetContactDefault }: HomeProps) {
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
-                  <p className="text-slate-700 text-xs font-medium">Multi-layered clinical PETG for 40% more persistent dental force</p>
+                  <p className="text-slate-700 text-xs font-medium">Medical-grade clear material engineered for steady, gentle tooth movement</p>
                 </div>
               </div>
               <div className="pt-4">

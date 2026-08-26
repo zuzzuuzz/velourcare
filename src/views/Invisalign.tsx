@@ -39,7 +39,7 @@ export default function Invisalign() {
               A Clear Path to a More Confident Smile.
             </h2>
             <p className="text-slate-600 text-sm leading-relaxed">
-              Invisalign and Vélourcare Ortho aligners use removable, clear medical polyurethane trays to guide teeth gradually into better positions. Because each aligner is made from digital records of your teeth, treatment avoids wire pokes, food restrictions, and many emergency visits.
+              Invisalign and Vélourcare Ortho aligners use removable, medical-grade clear aligner trays to guide teeth gradually into better positions. Because each aligner is made from digital records of your teeth, treatment avoids wire pokes, food restrictions, and many emergency visits.
             </p>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
@@ -53,7 +53,7 @@ export default function Invisalign() {
                 <CheckCircle className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-display font-bold text-slate-900 text-sm">Virtually Invisible</h4>
-                  <p className="text-slate-500 text-xs">High-clarity polymer keeps treatment discreet in daily life.</p>
+                  <p className="text-slate-500 text-xs">High-clarity clear material keeps treatment discreet in daily life.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

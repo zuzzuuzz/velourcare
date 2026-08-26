@@ -39,8 +39,8 @@ export default function AboutUs() {
     },
     {
       icon: <Microscope className="w-6 h-6 text-brand-600" />,
-      title: "Biomaterial Innovation",
-      desc: "Our Class-VI PETG polymers are selected for steady, gentle pressure while keeping the trays clear."
+      title: "Premium Materials",
+      desc: "Our medical-grade clear materials are chosen for steady, gentle pressure while keeping the trays crystal-clear."
     },
     {
       icon: <Shield className="w-6 h-6 text-brand-600" />,
@@ -71,7 +71,7 @@ export default function AboutUs() {
             About Us
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            Founded by clinical orthodontists, Vélourcare Ortho is built around careful diagnosis, biocompatible materials, and consistent lab workflows.
+            Founded by clinical orthodontists, Vélourcare Ortho is built around careful diagnosis, medical-grade materials, and consistent lab workflows.
           </p>
         </Reveal>
       </section>
@@ -102,7 +102,7 @@ export default function AboutUs() {
               In 2021, our founders saw clear aligner treatment becoming too commercial and too automated. Some direct-to-consumer providers were shipping aligners without complete orthodontic examinations or close doctor supervision.
             </p>
             <p className="text-slate-600 text-sm leading-relaxed">
-              Vélourcare Ortho was created to bring doctor oversight back into the process. We combine modern 3D thermoforming with structured clinical review. Today, we support doctor partners and direct patients, with every case checked before treatment moves forward.
+              Vélourcare Ortho was created to bring doctor oversight back into the process. We combine modern 3D fabrication with structured clinical review. Today, we support doctor partners and direct patients, with every case checked before treatment moves forward.
             </p>
           </Reveal>
         </div>

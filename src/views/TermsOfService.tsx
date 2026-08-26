@@ -51,7 +51,7 @@ export default function TermsOfService() {
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">1. SCOPE OF SERVICES & CLINICAL RESPONSIBILITY</h2>
           <p>
-            <strong>Digital Orthodontic Laboratory Operations:</strong> Velourcare Ortho functions as a specialized digital orthodontic laboratory providing 3D diagnostic treatment setups staged via OnyxCeph³ software, 3D printing models, thermoformed clear aligners, and auxiliary retainers based on digital data submitted by licensed practitioners.
+            <strong>Digital Orthodontic Laboratory Operations:</strong> Velourcare Ortho functions as a specialized digital orthodontic laboratory providing 3D diagnostic treatment setups staged via OnyxCeph³ software, 3D printing models, clear aligners, and auxiliary retainers based on digital data submitted by licensed practitioners.
           </p>
           <p>
             <strong>Clinical Autonomy & Duty of Care:</strong> Velourcare Ortho is a technical manufacturing and digital staging provider. We do not practice dentistry or medicine. All OnyxCeph³ tooth movement trajectories and virtual staging setups are technical suggestions generated for review by the treating practitioner. The referring practitioner retains sole responsibility for reviewing, verifying, and approving all OnyxCeph³ 3D treatment setups prior to aligner fabrication. Physical manufacturing will not commence until formal setup approval is granted via the Partner Portal.

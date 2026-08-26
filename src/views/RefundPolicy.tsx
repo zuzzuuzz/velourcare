@@ -58,12 +58,12 @@ export default function RefundPolicy() {
           <ul className="list-disc pl-5 space-y-2">
             <li><strong>Stage 1 — Diagnostic Upload & OnyxCeph³ Staging:</strong> Case setup in progress. Cancellations permitted subject to administrative setup fee.</li>
             <li><strong>Stage 2 — Practitioner Setup Approval:</strong> Final OnyxCeph³ 3D staging verified. Orders locked for fabrication.</li>
-            <li><strong>Stage 3 — Physical Production & Delivery:</strong> 3D printing and thermoforming initiated. Strictly non-cancellable and non-refundable.</li>
+            <li><strong>Stage 3 — Physical Production & Delivery:</strong> 3D printing and tray fabrication initiated. Strictly non-cancellable and non-refundable.</li>
           </ul>
 
           <ul className="list-disc pl-5 space-y-2 mt-4">
             <li><strong>Cancellation Prior to 3D Setup Approval:</strong> If a case is canceled via the Partner Portal before the practitioner approves the OnyxCeph³ 3D movement setup, a full refund will be processed, minus a nominal administrative and 3D design fee.</li>
-            <li><strong>Cancellation Post 3D Setup Approval:</strong> Once a practitioner approves the OnyxCeph³ 3D treatment plan, the order is immediately locked and transmitted to physical 3D printing and thermoforming lines. Cancellations or refunds are not permitted under any circumstances after setup approval.</li>
+            <li><strong>Cancellation Post 3D Setup Approval:</strong> Once a practitioner approves the OnyxCeph³ 3D treatment plan, the order is immediately locked and transmitted to physical 3D printing and fabrication lines. Cancellations or refunds are not permitted under any circumstances after setup approval.</li>
             <li><strong>On-Hold Cases:</strong> Unapproved cases left pending in practitioner portal accounts for over 60 consecutive days will be automatically archived. Reactivation may incur a minor administrative re-processing fee.</li>
           </ul>
         </div>
@@ -71,10 +71,10 @@ export default function RefundPolicy() {
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">3. Manufacturing Warranty & Quality Guarantee</h2>
           <p>
-            Velourcare Ortho guarantees that all physical aligner trays conform strictly to the approved OnyxCeph³ 3D digital setup models and are fabricated using high-grade biocompatible thermoforming polymers free from material defects.
+            Velourcare Ortho guarantees that all physical aligner trays conform strictly to the approved OnyxCeph³ 3D digital setup models and are fabricated using high-grade medical clear materials free from material defects.
           </p>
           <ul className="list-disc pl-5 space-y-2">
-            <li><strong>Defect Reporting Protocol:</strong> If an aligner arrives with a physical manufacturing defect (e.g., polymer delamination, sharp/ragged margins, incorrect tray sequencing, or physical warping), the practitioner must submit a defect report to info@vélourcare.com within 14 business days of delivery.</li>
+            <li><strong>Defect Reporting Protocol:</strong> If an aligner arrives with a physical manufacturing defect (e.g., material delamination, sharp/ragged margins, incorrect tray sequencing, or physical warping), the practitioner must submit a defect report to info@vélourcare.com within 14 business days of delivery.</li>
             <li><strong>Verification Requirements:</strong> Reports must include the anonymized Case Reference ID, step number, and high-resolution clinical photographs or video illustrating the defect.</li>
             <li><strong>Replacement Remakes:</strong> Upon laboratory verification of a manufacturing error, Velourcare Ortho will remake and dispatch the defective aligners free of charge within standard laboratory priority timelines.</li>
           </ul>
