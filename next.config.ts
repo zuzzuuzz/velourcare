@@ -9,6 +9,20 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Permanent 308 redirects from old Punycode domain
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "xn--vlourcare-b4a.com" }],
+        destination: "https://www.velourcareortho.com/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.xn--vlourcare-b4a.com" }],
+        destination: "https://www.velourcareortho.com/:path*",
+        permanent: true,
+      },
+      // Standard path redirects
       { source: "/blog", destination: "/blogs", permanent: true },
       { source: "/blog/:slug*", destination: "/blogs/:slug*", permanent: true },
       { source: "/about", destination: "/about-us", permanent: true },
