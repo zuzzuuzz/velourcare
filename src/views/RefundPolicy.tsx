@@ -35,7 +35,7 @@ export default function RefundPolicy() {
         <p>
           <strong>Effective Date:</strong> August 8, 2026<br/>
           <strong>Last Revised:</strong> August 8, 2026<br/>
-          <strong>Domain:</strong> vélourcare.com<br/>
+          <strong>Domain:</strong> velourcareortho.com<br/>
           <strong>Authority:</strong> Finance & Quality Assurance Division
         </p>
 
@@ -74,7 +74,7 @@ export default function RefundPolicy() {
             Velourcare Ortho guarantees that all physical aligner trays conform strictly to the approved OnyxCeph³ 3D digital setup models and are fabricated using high-grade medical clear materials free from material defects.
           </p>
           <ul className="list-disc pl-5 space-y-2">
-            <li><strong>Defect Reporting Protocol:</strong> If an aligner arrives with a physical manufacturing defect (e.g., material delamination, sharp/ragged margins, incorrect tray sequencing, or physical warping), the practitioner must submit a defect report to info@vélourcare.com within 14 business days of delivery.</li>
+            <li><strong>Defect Reporting Protocol:</strong> If an aligner arrives with a physical manufacturing defect (e.g., material delamination, sharp/ragged margins, incorrect tray sequencing, or physical warping), the practitioner must submit a defect report to info@velourcareortho.com within 14 business days of delivery.</li>
             <li><strong>Verification Requirements:</strong> Reports must include the anonymized Case Reference ID, step number, and high-resolution clinical photographs or video illustrating the defect.</li>
             <li><strong>Replacement Remakes:</strong> Upon laboratory verification of a manufacturing error, Velourcare Ortho will remake and dispatch the defective aligners free of charge within standard laboratory priority timelines.</li>
           </ul>
@@ -105,8 +105,8 @@ export default function RefundPolicy() {
           <h2 className="font-display font-bold text-xl text-slate-900">Contact Information</h2>
           <p>
             <strong>Velourcare Ortho — Finance & Quality Assurance Division</strong><br/>
-            Official Website: vélourcare.com<br/>
-            Email Contact: info@vélourcare.com
+            Official Website: velourcareortho.com<br/>
+            Email Contact: info@velourcareortho.com
           </p>
         </div>
         

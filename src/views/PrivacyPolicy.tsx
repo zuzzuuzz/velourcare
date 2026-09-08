@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
 
         {/* Preamble */}
         <p>
-          Velourcare Ortho (&ldquo;Velourcare Ortho,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is committed to maintaining the highest standards of data privacy, security, and clinical confidentiality for every patient, dental practitioner, and website visitor. This Privacy Policy outlines how we collect, process, store, protect, and disclose personal and medical information when you interact with our website at <strong>vélourcare.com</strong> (including subdomains such as velourcare-ortho.vercel.app, collectively the &ldquo;Site&rdquo;) or utilize our digital orthodontic planning and clear aligner fabrication services (collectively, the &ldquo;Services&rdquo;). By accessing our Site or utilizing our Services, you acknowledge that you have read, understood, and agreed to the data practices described in this Privacy Policy.
+          Velourcare Ortho (&ldquo;Velourcare Ortho,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is committed to maintaining the highest standards of data privacy, security, and clinical confidentiality for every patient, dental practitioner, and website visitor. This Privacy Policy outlines how we collect, process, store, protect, and disclose personal and medical information when you interact with our website at <strong>velourcareortho.com</strong> (including subdomains such as velourcare-ortho.vercel.app, collectively the &ldquo;Site&rdquo;) or utilize our digital orthodontic planning and clear aligner fabrication services (collectively, the &ldquo;Services&rdquo;). By accessing our Site or utilizing our Services, you acknowledge that you have read, understood, and agreed to the data practices described in this Privacy Policy.
         </p>
 
         {/* Section 1 */}
@@ -148,7 +148,7 @@ export default function PrivacyPolicy() {
         {/* Section 7 */}
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">7. Cookies &amp; Tracking Policy</h2>
-          <p>We utilize minimalist, privacy-focused tracking tools on vélourcare.com:</p>
+          <p>We utilize minimalist, privacy-focused tracking tools on velourcareortho.com:</p>
           <ul className="space-y-2 pl-1">
             <li className="flex items-start gap-2"><span className="mt-2 w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0" /><span><strong className="text-slate-900">Essential Cookies:</strong> Mandatory for web session authentication, form operation, and security checks. These cannot be disabled.</span></li>
             <li className="flex items-start gap-2"><span className="mt-2 w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0" /><span><strong className="text-slate-900">Analytics Cookies:</strong> Aggregated, non-identifying metrics to help us evaluate site load speed and layout performance. We do not track users across third-party websites.</span></li>
@@ -187,7 +187,7 @@ export default function PrivacyPolicy() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-2">
-            <strong className="text-slate-700">Requesting Deletion:</strong> Patients or referring clinics may request early deletion of personal identity records by submitting a formal request to <strong>info@vélourcare.com</strong>. Deletion will be executed within 30 business days, except where retention is required by tax law or active clinical liability obligations.
+            <strong className="text-slate-700">Requesting Deletion:</strong> Patients or referring clinics may request early deletion of personal identity records by submitting a formal request to <strong>info@velourcareortho.com</strong>. Deletion will be executed within 30 business days, except where retention is required by tax law or active clinical liability obligations.
           </p>
         </div>
 
@@ -217,7 +217,7 @@ export default function PrivacyPolicy() {
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">11. International Data Transfers &amp; Policy Updates</h2>
           <p>
-            Information collected via vélourcare.com or our Partner Portal may be processed on secure cloud servers located across different regions to ensure continuous service availability. All cross-border data transmissions are secured using AES-256 bit encryption and TLS 1.3 protocols.
+            Information collected via velourcareortho.com or our Partner Portal may be processed on secure cloud servers located across different regions to ensure continuous service availability. All cross-border data transmissions are secured using AES-256 bit encryption and TLS 1.3 protocols.
           </p>
           <p>
             We reserve the right to revise this Privacy Policy to align with evolving technology standards, operational changes, or legal updates. Material modifications will be communicated by posting an updated revision date on this page and notifying registered practitioners via the Partner Portal or direct email.
@@ -229,7 +229,7 @@ export default function PrivacyPolicy() {
           <p>Effective Date: July 22, 2026</p>
           <p>Last Revised: July 22, 2026</p>
           <p className="mt-2">Velourcare Ortho — Compliance &amp; Data Protection Division</p>
-          <p>Official Website: vélourcare.com &nbsp;|&nbsp; Email Contact: info@vélourcare.com</p>
+          <p>Official Website: velourcareortho.com &nbsp;|&nbsp; Email Contact: info@velourcareortho.com</p>
           <p className="mt-2">© 2026 Velourcare Ortho. All rights reserved. Strictly confidential.</p>
         </div>
       </div>

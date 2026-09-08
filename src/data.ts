@@ -347,7 +347,7 @@ Clear aligners do not pull teeth; they exert controlled pushing forces. OnyxCeph
 Adopting OnyxCeph³™ 3D setups moves digital laboratories and dental practices away from "guesswork" aligners. By controlling the complete setup process in-house, clinicians eliminate third-party lab markup, accelerate treatment turnaround, and offer patients predictable, lifetime smile transformations.
 
 > **Master Precision Digital Orthodontics**  
-> Looking to elevate your CAD crown design, aligner setups, or digital lab workflows? Partner with the digital dentistry experts at [vélourcare.com](https://velourcare.com).`,
+> Looking to elevate your CAD crown design, aligner setups, or digital lab workflows? Partner with the digital dentistry experts at [velourcareortho.com](https://www.velourcareortho.com).`,
     category: "3D Setup Science",
     author: {
       name: "Nomair Ahmad",
@@ -429,7 +429,7 @@ Because attachments are crafted from composite dental resin, their textured surf
 - **Clean Trays Independently:** Always clean your aligners using cool or lukewarm water and non-abrasive liquid soap. Avoid using abrasive toothpastes on your trays, as micro-scratches trap bacteria and make the trays look cloudy over attachments.
 
 > **Achieve Your Best Smile Outcome**  
-> Questions about your clear aligner progress or custom attachment design? Explore expert digital alignment tips and services at [vélourcare.com](https://velourcare.com).`,
+> Questions about your clear aligner progress or custom attachment design? Explore expert digital alignment tips and services at [velourcareortho.com](https://www.velourcareortho.com).`,
     category: "Patient Care",
     author: {
       name: "Nomair Ahmad",
@@ -503,7 +503,7 @@ When asking if aligners are "worth it," consider that straight teeth offer healt
 Clear aligners are undoubtedly **worth the investment** if you value discretion, dietary flexibility, and easier oral hygiene—and if you are committed to wearing them for 22 hours per day. By choosing doctor-led treatment powered by precision CAD planning, you ensure your investment delivers a lifetime of health and confidence.
 
 > **Ready to Transform Your Smile?**  
-> Explore custom clear aligner setups, digital smile design, and expert orthodontic solutions at [vélourcare.com](https://velourcare.com).`,
+> Explore custom clear aligner setups, digital smile design, and expert orthodontic solutions at [velourcareortho.com](https://www.velourcareortho.com).`,
     category: "Treatment Economics",
     author: {
       name: "Nomair Ahmad",
@@ -587,5 +587,5 @@ export const officeHours = [
 ];
 export const officeContact = {
   phone: "+923264755645",
-  email: "info@vélourcare.com"
+  email: "info@velourcareortho.com"
 };

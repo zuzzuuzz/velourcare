@@ -35,12 +35,12 @@ export default function TermsOfService() {
         <p>
           <strong>Effective Date:</strong> August 8, 2026<br/>
           <strong>Last Revised:</strong> August 8, 2026<br/>
-          <strong>Domain:</strong> vélourcare.com<br/>
+          <strong>Domain:</strong> velourcareortho.com<br/>
           <strong>Authority:</strong> Legal & Compliance Division
         </p>
 
         <p>
-          These Terms & Conditions ("Terms", "Agreement") govern your access to and use of the website located at vélourcare.com (including subdomains such as velourcare-ortho.vercel.app, collectively the "Site") and all digital orthodontic planning, OnyxCeph³ 3D staging, model production, and clear aligner fabrication services provided by Velourcare Ortho ("Velourcare Ortho", "we", "us", or "our") (collectively, the "Services").
+          These Terms & Conditions ("Terms", "Agreement") govern your access to and use of the website located at velourcareortho.com (including subdomains such as velourcare-ortho.vercel.app, collectively the "Site") and all digital orthodontic planning, OnyxCeph³ 3D staging, model production, and clear aligner fabrication services provided by Velourcare Ortho ("Velourcare Ortho", "we", "us", or "our") (collectively, the "Services").
         </p>
 
         <p>
@@ -64,7 +64,7 @@ export default function TermsOfService() {
             <strong>Licensure Verification:</strong> Access to the Velourcare Partner Portal and clinical ordering systems is restricted to licensed dentists, orthodontists, and authorized dental clinics. We reserve the right to request proof of professional licensure (e.g., PMC/PMDC registration) prior to fulfilling orders.
           </p>
           <p>
-            <strong>Account Safeguards:</strong> You are responsible for maintaining the confidentiality of your account credentials and multi-factor authentication details. Notify us immediately at info@vélourcare.com if you suspect unauthorized access.
+            <strong>Account Safeguards:</strong> You are responsible for maintaining the confidentiality of your account credentials and multi-factor authentication details. Notify us immediately at info@velourcareortho.com if you suspect unauthorized access.
           </p>
         </div>
 
@@ -108,7 +108,7 @@ export default function TermsOfService() {
         <div className="space-y-3">
           <h2 className="font-display font-bold text-xl text-slate-900">6. INTELLECTUAL PROPERTY & DIGITAL ASSETS</h2>
           <p>
-            All software, algorithms, 3D setup viewer interfaces, branding assets, logos, website layout, and trade secrets associated with vélourcare.com are the exclusive property of Velourcare Ortho. Proprietary OnyxCeph³ staging files, digital movement trajectories, and custom 3D model setups remain our intellectual property.
+            All software, algorithms, 3D setup viewer interfaces, branding assets, logos, website layout, and trade secrets associated with velourcareortho.com are the exclusive property of Velourcare Ortho. Proprietary OnyxCeph³ staging files, digital movement trajectories, and custom 3D model setups remain our intellectual property.
           </p>
         </div>
 
@@ -137,8 +137,8 @@ export default function TermsOfService() {
           <h2 className="font-display font-bold text-xl text-slate-900">10. CONTACT INFORMATION</h2>
           <p>
             Velourcare Ortho - Legal & Compliance Division<br/>
-            Official Website: vélourcare.com<br/>
-            Email Contact: info@vélourcare.com
+            Official Website: velourcareortho.com<br/>
+            Email Contact: info@velourcareortho.com
           </p>
         </div>
         
