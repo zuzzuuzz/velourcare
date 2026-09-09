@@ -74,7 +74,7 @@ export default function RefundPolicy() {
             Velourcare Ortho guarantees that all physical aligner trays conform strictly to the approved OnyxCeph³ 3D digital setup models and are fabricated using high-grade medical clear materials free from material defects.
           </p>
           <ul className="list-disc pl-5 space-y-2">
-            <li><strong>Defect Reporting Protocol:</strong> If an aligner arrives with a physical manufacturing defect (e.g., material delamination, sharp/ragged margins, incorrect tray sequencing, or physical warping), the practitioner must submit a defect report to info@velourcareortho.com within 14 business days of delivery.</li>
+            <li><strong>Defect Reporting Protocol:</strong> If an aligner arrives with a physical manufacturing defect (e.g., material delamination, sharp/ragged margins, incorrect tray sequencing, or physical warping), the practitioner must submit a defect report to info@vélourcare.com within 14 business days of delivery.</li>
             <li><strong>Verification Requirements:</strong> Reports must include the anonymized Case Reference ID, step number, and high-resolution clinical photographs or video illustrating the defect.</li>
             <li><strong>Replacement Remakes:</strong> Upon laboratory verification of a manufacturing error, Velourcare Ortho will remake and dispatch the defective aligners free of charge within standard laboratory priority timelines.</li>
           </ul>
@@ -106,7 +106,7 @@ export default function RefundPolicy() {
           <p>
             <strong>Velourcare Ortho — Finance & Quality Assurance Division</strong><br/>
             Official Website: velourcareortho.com<br/>
-            Email Contact: info@velourcareortho.com
+            Email Contact: info@vélourcare.com
           </p>
         </div>
         

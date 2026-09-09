@@ -187,7 +187,7 @@ export default function PrivacyPolicy() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-2">
-            <strong className="text-slate-700">Requesting Deletion:</strong> Patients or referring clinics may request early deletion of personal identity records by submitting a formal request to <strong>info@velourcareortho.com</strong>. Deletion will be executed within 30 business days, except where retention is required by tax law or active clinical liability obligations.
+            <strong className="text-slate-700">Requesting Deletion:</strong> Patients or referring clinics may request early deletion of personal identity records by submitting a formal request to <strong>info@vélourcare.com</strong>. Deletion will be executed within 30 business days, except where retention is required by tax law or active clinical liability obligations.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function PrivacyPolicy() {
           <p>Effective Date: July 22, 2026</p>
           <p>Last Revised: July 22, 2026</p>
           <p className="mt-2">Velourcare Ortho — Compliance &amp; Data Protection Division</p>
-          <p>Official Website: velourcareortho.com &nbsp;|&nbsp; Email Contact: info@velourcareortho.com</p>
+          <p>Official Website: velourcareortho.com &nbsp;|&nbsp; Email Contact: info@vélourcare.com</p>
           <p className="mt-2">© 2026 Velourcare Ortho. All rights reserved. Strictly confidential.</p>
         </div>
       </div>

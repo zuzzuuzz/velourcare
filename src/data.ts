@@ -587,5 +587,5 @@ export const officeHours = [
 ];
 export const officeContact = {
   phone: "+923264755645",
-  email: "info@velourcareortho.com"
+  email: "info@vélourcare.com"
 };

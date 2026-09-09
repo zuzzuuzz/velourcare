@@ -64,7 +64,7 @@ export default function TermsOfService() {
             <strong>Licensure Verification:</strong> Access to the Velourcare Partner Portal and clinical ordering systems is restricted to licensed dentists, orthodontists, and authorized dental clinics. We reserve the right to request proof of professional licensure (e.g., PMC/PMDC registration) prior to fulfilling orders.
           </p>
           <p>
-            <strong>Account Safeguards:</strong> You are responsible for maintaining the confidentiality of your account credentials and multi-factor authentication details. Notify us immediately at info@velourcareortho.com if you suspect unauthorized access.
+            <strong>Account Safeguards:</strong> You are responsible for maintaining the confidentiality of your account credentials and multi-factor authentication details. Notify us immediately at info@vélourcare.com if you suspect unauthorized access.
           </p>
         </div>
 
@@ -138,7 +138,7 @@ export default function TermsOfService() {
           <p>
             Velourcare Ortho - Legal & Compliance Division<br/>
             Official Website: velourcareortho.com<br/>
-            Email Contact: info@velourcareortho.com
+            Email Contact: info@vélourcare.com
           </p>
         </div>
         

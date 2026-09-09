@@ -4,7 +4,7 @@ export const siteName = "Vélourcare Ortho";
 export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.velourcareortho.com").replace(/\/$/, "");
 export const siteDescription = "Vélourcare Ortho provides doctor-led digital orthodontic planning, OnyxCeph 3D setup, and clear aligner support for clinical partners and patients.";
 
-export const contactEmail = "info@velourcareortho.com";
+export const contactEmail = "info@vélourcare.com";
 export const contactPhone = "+923264755645";
 
 export const siteKeywords = [
