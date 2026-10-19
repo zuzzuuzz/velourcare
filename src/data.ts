@@ -586,7 +586,9 @@ export const officeHours = [
   { days: "Sunday", hours: "Closed" }
 ];
 export const officeContact = {
-  phone: "+61 420 686 497",
+  phone: "(770)-376-7486",
+  phoneRaw: "+17703767486",
+  whatsapp: "+61 420 686 497",
   whatsappUrl: "https://wa.me/61420686497",
   email: "info@vélourcare.com"
 };

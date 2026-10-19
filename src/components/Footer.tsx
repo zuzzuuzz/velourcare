@@ -1,6 +1,6 @@
 "use client";
 
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Clock, ArrowUp } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin, Clock, ArrowUp } from "lucide-react";
 import { officeAddress, officeHours, officeContact } from "../data";
 import Logo from "./Logo";
 import WhatsAppIcon from "./WhatsAppIcon";
@@ -86,6 +86,16 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <span>{officeAddress}</span>
               </li>
               <li className="flex items-center space-x-3">
+                <Phone className="w-5 h-5 text-brand-500 shrink-0" />
+                <a
+                  href={`tel:${officeContact.phoneRaw}`}
+                  className="hover:text-white transition-colors"
+                  aria-label="Call Vélourcare Ortho"
+                >
+                  {officeContact.phone}
+                </a>
+              </li>
+              <li className="flex items-center space-x-3">
                 <WhatsAppIcon className="w-5 h-5 text-brand-500 shrink-0" />
                 <a
                   href={officeContact.whatsappUrl}
@@ -94,7 +104,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                   className="hover:text-white transition-colors"
                   aria-label="Chat with Vélourcare Ortho on WhatsApp"
                 >
-                  {officeContact.phone}
+                  {officeContact.whatsapp}
                 </a>
               </li>
               <li className="flex items-center space-x-3">
