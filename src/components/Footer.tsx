@@ -63,7 +63,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/923264755645"
+                href="https://wa.me/61420686497"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-slate-800 hover:bg-brand-500 hover:text-slate-900 flex items-center justify-center transition-all duration-200 text-slate-400"
@@ -86,7 +86,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-brand-500 shrink-0" />
-                <a href={`tel:${officeContact.phone}`} className="hover:text-white transition-colors">
+                <a href={`tel:${officeContact.phone.replace(/\s+/g, "")}`} className="hover:text-white transition-colors">
                   {officeContact.phone}
                 </a>
               </li>

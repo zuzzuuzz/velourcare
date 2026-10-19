@@ -77,7 +77,7 @@ function ContactContent() {
               <Phone className="w-6 h-6 text-brand-600 shrink-0 mt-0.5" />
               <div className="text-left">
                 <h4 className="font-display font-bold text-slate-900">Phone Contact</h4>
-                <a href={`tel:${officeContact.phone}`} className="text-brand-600 hover:text-brand-700 text-xs font-semibold block mt-1">
+                <a href={`tel:${officeContact.phone.replace(/\s+/g, "")}`} className="text-brand-600 hover:text-brand-700 text-xs font-semibold block mt-1">
                   {officeContact.phone}
                 </a>
                 <span className="text-[10px] text-slate-400">Available during standard office hours</span>
