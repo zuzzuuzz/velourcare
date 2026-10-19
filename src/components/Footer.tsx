@@ -90,7 +90,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <a
                   href={`tel:${officeContact.phoneRaw}`}
                   className="hover:text-white transition-colors"
-                  aria-label="Call Vélourcare Ortho"
+                  aria-label="Direct phone call to Vélourcare Ortho"
                 >
                   {officeContact.phone}
                 </a>
