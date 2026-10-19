@@ -587,5 +587,6 @@ export const officeHours = [
 ];
 export const officeContact = {
   phone: "+61 420 686 497",
+  whatsappUrl: "https://wa.me/61420686497",
   email: "info@vélourcare.com"
 };

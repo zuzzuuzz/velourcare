@@ -2,10 +2,11 @@
 
 import React, { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Mail, Clock } from "lucide-react";
 import Reveal from "../components/Reveal";
 import RevealGroup from "../components/RevealGroup";
 import InteractiveForm from "../components/InteractiveForm";
+import WhatsAppIcon from "../components/WhatsAppIcon";
 import { officeAddress, officeContact, officeHours } from "../data";
 
 function ContactContent() {
@@ -74,13 +75,19 @@ function ContactContent() {
             </div>
 
             <div className="flex items-start space-x-4 bg-slate-50 p-5 rounded-2xl border border-slate-100">
-              <Phone className="w-6 h-6 text-brand-600 shrink-0 mt-0.5" />
+              <WhatsAppIcon className="w-6 h-6 text-brand-600 shrink-0 mt-0.5" />
               <div className="text-left">
-                <h4 className="font-display font-bold text-slate-900">Phone Contact</h4>
-                <a href={`tel:${officeContact.phone.replace(/\s+/g, "")}`} className="text-brand-600 hover:text-brand-700 text-xs font-semibold block mt-1">
+                <h4 className="font-display font-bold text-slate-900">WhatsApp Contact</h4>
+                <a
+                  href={officeContact.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-brand-600 hover:text-brand-700 text-xs font-semibold block mt-1"
+                  aria-label="Chat with Vélourcare Ortho on WhatsApp"
+                >
                   {officeContact.phone}
                 </a>
-                <span className="text-[10px] text-slate-400">Available during standard office hours</span>
+                <span className="text-[10px] text-slate-400">Direct WhatsApp chat & support</span>
               </div>
             </div>
 

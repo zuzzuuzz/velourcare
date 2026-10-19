@@ -1,8 +1,9 @@
 "use client";
 
-import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin, Clock, MessageCircle, ArrowUp } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Clock, ArrowUp } from "lucide-react";
 import { officeAddress, officeHours, officeContact } from "../data";
 import Logo from "./Logo";
+import WhatsAppIcon from "./WhatsAppIcon";
 
 interface FooterProps {
   onNavigate: (page: string) => void;
@@ -63,13 +64,13 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/61420686497"
+                href={officeContact.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-slate-800 hover:bg-brand-500 hover:text-slate-900 flex items-center justify-center transition-all duration-200 text-slate-400"
                 aria-label="Chat with Vélourcare Ortho on WhatsApp"
               >
-                <MessageCircle className="w-4 h-4" />
+                <WhatsAppIcon className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -85,8 +86,14 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <span>{officeAddress}</span>
               </li>
               <li className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-brand-500 shrink-0" />
-                <a href={`tel:${officeContact.phone.replace(/\s+/g, "")}`} className="hover:text-white transition-colors">
+                <WhatsAppIcon className="w-5 h-5 text-brand-500 shrink-0" />
+                <a
+                  href={officeContact.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                  aria-label="Chat with Vélourcare Ortho on WhatsApp"
+                >
                   {officeContact.phone}
                 </a>
               </li>
